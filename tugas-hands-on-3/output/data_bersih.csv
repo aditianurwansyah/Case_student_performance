@@ -1,0 +1,801 @@
+student_id,usia,jenis_kelamin,jenis_sekolah,pendidikan_orang_tua,pekerjaan_orang_tua,jam_belajar_per_minggu,persentase_kehadiran,ikut_ekskul,akses_internet,les_privat,waktu_tempuh_menit,nilai_matematika,nilai_bahasa_indonesia,nilai_ipa,nilai_ips,nilai_bahasa_inggris,nilai_rata_rata,status_kelulusan
+STU0001,17.0,Laki-laki,Negeri,S1,PNS,13.0,59.8,Ya,Ya,Ya,138.0,65.0,68.0,44.0,41.0,43.0,52.2,Tidak Lulus
+STU0002,13.0,Perempuan,Swasta,S2,PNS,11.0,84.8,Ya,Ya,Tidak,65.0,70.0,79.0,54.0,67.0,69.0,67.8,Tidak Lulus
+STU0003,12.0,Perempuan,Swasta,S1,PNS,4.0,72.0,Tidak,Ya,Tidak,90.0,41.0,53.0,35.0,38.0,69.0,47.2,Tidak Lulus
+STU0004,12.0,Laki-laki,Swasta,S1,PNS,26.0,73.4,Ya,Ya,Tidak,56.0,87.0,73.0,81.0,76.0,52.0,73.8,Lulus
+STU0005,13.0,Laki-laki,Swasta,SD,PNS,10.0,94.5,Tidak,Ya,Ya,109.0,71.0,75.0,67.5,72.0,74.0,71.9,Lulus
+STU0006,18.0,Laki-laki,Negeri,S2,Wiraswasta,34.0,67.7,Ya,Tidak,Tidak,48.0,75.0,85.0,65.0,79.0,88.0,78.4,Lulus
+STU0007,12.0,Laki-laki,Negeri,SMP,Petani,40.0,86.7,Ya,Ya,Tidak,35.0,100.0,100.0,71.0,100.0,90.0,92.2,Lulus
+STU0008,18.0,Perempuan,Swasta,SMA,Tidak Bekerja,4.0,79.5,Tidak,Ya,Tidak,66.0,49.0,44.0,30.0,51.0,29.0,40.6,Tidak Lulus
+STU0009,14.0,Perempuan,Swasta,SD,PNS,3.0,52.7,Ya,Tidak,Tidak,11.0,29.0,34.0,13.0,31.0,21.0,25.6,Tidak Lulus
+STU0010,18.0,Laki-laki,Negeri,SMA,PNS,16.0,92.8,Ya,Ya,Tidak,143.0,66.0,85.0,78.0,76.0,76.0,76.2,Lulus
+STU0011,12.0,Laki-laki,Negeri,SD,Petani,25.0,98.4,Tidak,Ya,Tidak,130.0,85.0,91.0,93.0,93.0,70.0,86.4,Lulus
+STU0012,12.0,Laki-laki,Negeri,SMP,Wiraswasta,42.0,53.8,Ya,Ya,Ya,8.0,100.0,100.0,99.0,100.0,99.0,99.6,Lulus
+STU0013,14.0,Laki-laki,Negeri,SMA,Tidak Bekerja,32.0,78.2,Tidak,Ya,Ya,63.0,99.0,89.0,84.0,99.0,88.0,91.8,Lulus
+STU0014,14.0,Laki-laki,Swasta,SMA,PNS,29.0,63.6,Tidak,Tidak,Ya,38.0,73.0,99.0,83.0,72.0,90.0,83.4,Lulus
+STU0015,14.0,Laki-laki,Negeri,SD,Wiraswasta,22.0,66.3,Tidak,Ya,Tidak,145.0,57.0,86.0,63.0,64.0,60.0,66.0,Lulus
+STU0016,12.0,Perempuan,Negeri,SMP,Karyawan Swasta,17.0,78.0,Tidak,Ya,Tidak,58.0,74.0,73.0,59.0,68.0,47.0,64.2,Tidak Lulus
+STU0017,16.0,Laki-laki,Negeri,S1,Wiraswasta,13.0,91.2,Tidak,Ya,Ya,26.0,65.0,66.0,72.0,84.0,49.0,67.2,Lulus
+STU0018,13.0,Laki-laki,Swasta,S1,Karyawan Swasta,32.0,60.1,Ya,Tidak,Tidak,91.0,57.0,90.0,69.0,94.0,88.0,79.6,Lulus
+STU0019,18.0,Laki-laki,Negeri,SMA,Karyawan Swasta,41.0,48.4,Tidak,Ya,Tidak,111.0,97.0,77.0,87.0,81.0,100.0,88.4,Lulus
+STU0020,18.0,Laki-laki,Negeri,S2,Karyawan Swasta,14.0,71.4,Ya,Ya,Tidak,123.0,61.0,71.0,58.0,75.0,20.0,57.0,Tidak Lulus
+STU0021,17.0,Perempuan,Negeri,S2,Tidak Bekerja,36.0,97.9,Ya,Ya,Ya,37.0,74.0,100.0,100.0,100.0,100.0,94.8,Lulus
+STU0022,17.0,Laki-laki,Negeri,S1,Wiraswasta,16.0,79.9,Tidak,Ya,Tidak,80.0,60.0,78.0,52.0,69.0,34.0,58.6,Tidak Lulus
+STU0023,13.0,Laki-laki,Negeri,S1,Karyawan Swasta,23.0,77.5,Tidak,Ya,Ya,61.0,72.0,99.0,70.0,84.0,81.0,81.2,Lulus
+STU0024,16.0,Perempuan,Negeri,SMP,Wiraswasta,14.0,56.9,Tidak,Ya,Tidak,36.0,49.0,50.0,51.0,60.0,58.0,53.6,Tidak Lulus
+STU0025,16.0,Perempuan,Swasta,SMP,Karyawan Swasta,9.0,82.5,Ya,Ya,Tidak,8.0,60.0,67.0,53.0,59.0,78.0,63.4,Tidak Lulus
+STU0026,16.0,Laki-laki,Negeri,S1,Karyawan Swasta,38.0,91.0,Tidak,Tidak,Ya,132.0,93.0,100.0,100.0,100.0,88.0,96.2,Lulus
+STU0027,14.5,Laki-laki,Swasta,SD,PNS,1.0,73.0,Ya,Ya,Tidak,28.0,59.0,44.0,42.0,55.0,55.0,51.0,Tidak Lulus
+STU0028,16.0,Laki-laki,Negeri,SMP,PNS,27.0,78.6,Tidak,Tidak,Tidak,16.0,83.0,83.0,71.0,79.0,83.0,79.8,Lulus
+STU0029,13.0,Perempuan,Swasta,S1,Karyawan Swasta,7.0,58.4,Ya,Ya,Ya,5.0,41.0,56.0,40.0,64.0,58.0,51.8,Tidak Lulus
+STU0030,12.0,Perempuan,Negeri,SD,PNS,22.0,49.7,Tidak,Ya,Tidak,79.0,67.0,77.0,65.0,74.0,61.0,68.8,Lulus
+STU0031,12.0,Laki-laki,Negeri,SD,Wiraswasta,40.0,46.2,Tidak,Ya,Ya,97.0,95.0,96.0,80.0,98.0,74.0,88.6,Lulus
+STU0032,15.0,Laki-laki,Swasta,S2,Tidak Bekerja,29.0,63.3,Ya,Ya,Tidak,138.0,91.0,79.0,65.0,88.0,87.0,82.0,Lulus
+STU0033,17.0,Perempuan,Swasta,SMA,Buruh,16.0,95.3,Ya,Ya,Tidak,123.0,65.0,68.0,68.0,57.0,84.0,68.4,Lulus
+STU0034,13.0,Laki-laki,Swasta,SMP,Petani,32.0,91.7,Tidak,Ya,Tidak,17.0,100.0,91.0,93.0,96.0,91.0,94.2,Lulus
+STU0035,16.0,Laki-laki,Swasta,S1,Karyawan Swasta,10.0,68.1,Tidak,Ya,Ya,20.0,48.0,65.0,49.0,74.0,65.0,60.2,Tidak Lulus
+STU0036,16.0,Perempuan,Swasta,S1,Tidak Bekerja,36.0,52.9,Tidak,Tidak,Tidak,78.0,86.0,82.0,72.0,88.0,81.0,81.8,Lulus
+STU0037,12.0,Perempuan,Swasta,SD,PNS,12.0,64.0,Tidak,Ya,Tidak,131.0,55.0,46.0,48.0,44.0,35.0,45.6,Tidak Lulus
+STU0038,16.0,Laki-laki,Swasta,S2,Wiraswasta,28.0,55.8,Tidak,Ya,Tidak,84.0,80.0,99.0,85.0,65.0,71.0,80.0,Lulus
+STU0039,18.0,Laki-laki,Negeri,SMP,Karyawan Swasta,40.0,46.5,Tidak,Ya,Tidak,139.0,89.0,100.0,76.0,98.0,72.0,87.0,Lulus
+STU0040,12.0,Perempuan,Negeri,S1,Wiraswasta,29.0,52.7,Tidak,Ya,Tidak,18.0,47.0,83.0,87.0,88.0,65.0,74.0,Lulus
+STU0041,14.0,Perempuan,Swasta,SD,PNS,38.0,97.1,Ya,Tidak,Ya,149.0,100.0,100.0,100.0,100.0,97.0,99.4,Lulus
+STU0042,18.0,Perempuan,Negeri,SD,Petani,1.0,88.2,Tidak,Ya,Tidak,96.0,47.0,45.0,50.0,59.0,45.0,49.2,Tidak Lulus
+STU0043,17.0,Perempuan,Swasta,SD,Tidak Bekerja,38.0,59.9,Tidak,Tidak,Tidak,60.0,78.0,94.0,75.0,93.0,69.0,81.8,Lulus
+STU0044,13.0,Perempuan,Swasta,S2,Karyawan Swasta,19.0,88.2,Tidak,Ya,Ya,31.0,88.0,100.0,81.0,64.0,100.0,86.6,Lulus
+STU0045,13.0,Perempuan,Swasta,S2,Karyawan Swasta,29.0,71.9,Ya,Ya,Tidak,99.0,63.0,90.0,65.0,77.0,87.0,76.4,Lulus
+STU0046,12.0,Laki-laki,Negeri,SMA,Tidak Bekerja,1.0,86.7,Tidak,Ya,Ya,52.0,40.0,70.0,56.0,76.5,62.0,60.9,Tidak Lulus
+STU0047,17.0,Perempuan,Swasta,SMP,PNS,4.0,68.8,Tidak,Ya,Tidak,78.0,71.0,53.0,52.0,41.0,40.0,51.4,Tidak Lulus
+STU0048,17.0,Perempuan,Negeri,SMA,Wiraswasta,22.0,57.8,Ya,Tidak,Tidak,86.0,66.0,77.0,80.0,68.0,69.0,72.0,Lulus
+STU0049,16.0,Perempuan,Swasta,SMP,PNS,3.0,64.6,Ya,Ya,Ya,78.0,35.0,56.0,55.0,39.0,48.0,46.6,Tidak Lulus
+STU0050,15.0,Perempuan,Swasta,S1,Buruh,25.0,72.8,Tidak,Tidak,Ya,15.0,87.0,87.0,62.0,72.0,64.0,74.4,Lulus
+STU0051,14.0,Perempuan,Negeri,SD,PNS,26.0,64.5,Ya,Ya,Tidak,86.0,65.0,71.0,78.0,86.0,66.0,73.2,Lulus
+STU0052,16.0,Laki-laki,Negeri,SD,Tidak Bekerja,1.0,72.9,Ya,Ya,Ya,148.0,55.0,46.0,30.0,70.0,53.0,50.8,Tidak Lulus
+STU0053,18.0,Laki-laki,Negeri,SMP,Tidak Bekerja,32.0,86.2,Tidak,Tidak,Tidak,107.0,99.0,77.0,96.0,86.0,76.0,86.8,Lulus
+STU0054,16.0,Laki-laki,Negeri,SMA,Buruh,41.0,94.4,Tidak,Ya,Tidak,79.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0055,18.0,Perempuan,Swasta,S1,PNS,29.0,99.7,Ya,Ya,Tidak,71.0,100.0,100.0,81.0,90.0,68.0,87.8,Lulus
+STU0056,15.0,Laki-laki,Negeri,SMP,PNS,7.0,73.9,Tidak,Ya,Ya,82.0,56.0,60.0,58.0,58.0,48.0,56.0,Tidak Lulus
+STU0057,14.0,Perempuan,Swasta,SMA,Buruh,19.0,75.5,Ya,Ya,Tidak,128.0,75.0,64.0,64.0,89.0,59.0,70.2,Lulus
+STU0058,18.0,Perempuan,Negeri,S2,Tidak Bekerja,36.0,89.8,Ya,Ya,Ya,135.0,91.0,100.0,100.0,90.0,86.0,93.4,Lulus
+STU0059,15.0,Laki-laki,Negeri,S2,Buruh,1.0,54.3,Ya,Ya,Ya,133.0,49.0,48.0,56.0,34.0,29.0,43.2,Tidak Lulus
+STU0060,14.0,Perempuan,Swasta,SD,PNS,31.0,71.3,Tidak,Tidak,Tidak,75.0,86.0,79.0,77.0,84.0,87.0,82.6,Lulus
+STU0061,13.0,Laki-laki,Swasta,SD,Petani,41.0,70.7,Ya,Ya,Ya,140.0,89.0,100.0,99.0,100.0,86.0,94.8,Lulus
+STU0062,17.0,Perempuan,Negeri,SD,Buruh,40.0,51.2,Tidak,Ya,Tidak,39.0,88.0,100.0,91.0,100.0,71.0,90.0,Lulus
+STU0063,12.0,Laki-laki,Negeri,SD,PNS,12.0,59.8,Tidak,Ya,Ya,70.0,63.0,69.0,53.0,73.0,39.0,59.4,Tidak Lulus
+STU0064,17.0,Perempuan,Swasta,S2,Wiraswasta,8.0,53.4,Tidak,Ya,Tidak,143.0,71.0,53.0,33.0,39.0,32.0,45.6,Tidak Lulus
+STU0065,12.0,Laki-laki,Negeri,SMP,Wiraswasta,16.0,71.1,Ya,Ya,Tidak,73.0,58.0,73.0,40.0,65.0,63.0,59.8,Tidak Lulus
+STU0066,15.0,Laki-laki,Negeri,S1,PNS,32.0,49.5,Ya,Ya,Tidak,116.0,91.0,91.0,80.0,87.0,77.0,85.2,Lulus
+STU0067,14.0,Laki-laki,Swasta,S1,Petani,30.0,72.2,Ya,Tidak,Tidak,76.0,85.0,93.0,84.0,83.0,82.0,85.4,Lulus
+STU0068,12.0,Perempuan,Swasta,SMP,Tidak Bekerja,28.0,99.8,Tidak,Ya,Tidak,103.0,98.0,91.0,87.0,97.0,69.0,88.4,Lulus
+STU0069,18.0,Perempuan,Swasta,S2,Karyawan Swasta,35.0,60.2,Tidak,Ya,Ya,58.0,84.0,76.0,96.0,100.0,79.0,87.0,Lulus
+STU0070,15.0,Laki-laki,Negeri,SMA,PNS,37.0,71.5,Ya,Ya,Tidak,8.0,74.0,100.0,94.0,76.5,100.0,88.9,Lulus
+STU0071,18.0,Laki-laki,Swasta,SMP,Karyawan Swasta,41.0,55.7,Ya,Ya,Tidak,33.0,79.0,91.0,100.0,95.0,69.0,86.8,Lulus
+STU0072,13.0,Perempuan,Negeri,SD,Tidak Bekerja,32.0,54.5,Ya,Ya,Tidak,86.0,77.0,96.0,71.0,78.0,86.0,81.6,Lulus
+STU0073,13.0,Perempuan,Negeri,S2,PNS,26.0,60.8,Tidak,Ya,Ya,7.0,61.0,70.0,77.0,75.0,82.0,73.0,Lulus
+STU0074,18.0,Perempuan,Swasta,SMA,Wiraswasta,7.0,81.8,Tidak,Ya,Tidak,146.0,42.0,57.0,51.0,38.0,44.0,46.4,Tidak Lulus
+STU0075,18.0,Perempuan,Swasta,S1,Tidak Bekerja,14.0,91.9,Tidak,Tidak,Tidak,67.0,68.0,59.0,60.0,68.0,59.0,62.8,Tidak Lulus
+STU0076,18.0,Laki-laki,Swasta,SMP,Tidak Bekerja,26.0,66.4,Tidak,Tidak,Tidak,11.0,76.0,75.0,69.0,64.0,74.0,71.6,Lulus
+STU0077,12.0,Laki-laki,Swasta,S1,PNS,14.0,80.3,Ya,Ya,Ya,94.0,73.0,82.0,79.0,67.0,59.0,72.0,Lulus
+STU0078,15.0,Laki-laki,Negeri,SMP,PNS,41.0,65.7,Tidak,Ya,Tidak,114.0,88.0,94.0,86.0,100.0,76.0,88.8,Lulus
+STU0079,13.0,Perempuan,Negeri,SMA,Karyawan Swasta,17.0,74.3,Ya,Ya,Tidak,23.0,76.0,61.0,63.0,85.0,46.0,66.2,Lulus
+STU0080,15.0,Laki-laki,Negeri,SMP,Buruh,24.0,80.5,Ya,Ya,Ya,145.0,74.0,78.0,100.0,91.0,80.0,84.6,Lulus
+STU0081,17.0,Perempuan,Swasta,SMP,Wiraswasta,6.0,72.2,Ya,Ya,Tidak,145.0,23.0,33.0,38.0,34.0,44.0,34.4,Tidak Lulus
+STU0082,12.0,Perempuan,Negeri,SMA,PNS,37.0,71.4,Tidak,Tidak,Ya,133.0,84.0,100.0,87.0,100.0,80.0,90.2,Lulus
+STU0083,12.0,Perempuan,Negeri,S2,Wiraswasta,13.0,78.4,Ya,Ya,Ya,56.0,72.0,78.0,71.0,76.0,66.0,72.6,Lulus
+STU0084,13.0,Perempuan,Swasta,SMP,Tidak Bekerja,38.0,57.8,Tidak,Ya,Tidak,121.0,62.0,100.0,85.0,100.0,89.0,87.2,Lulus
+STU0085,14.0,Perempuan,Swasta,SMP,PNS,21.0,50.6,Tidak,Ya,Ya,113.0,71.0,83.0,54.0,60.0,76.0,68.8,Lulus
+STU0086,13.0,Laki-laki,Swasta,SMA,Karyawan Swasta,11.0,49.1,Tidak,Ya,Tidak,61.0,49.0,55.0,54.0,45.0,57.0,52.0,Tidak Lulus
+STU0087,18.0,Perempuan,Swasta,SMA,Tidak Bekerja,39.0,92.4,Ya,Tidak,Tidak,54.0,83.0,100.0,100.0,100.0,88.0,94.2,Lulus
+STU0088,13.0,Laki-laki,Negeri,S1,PNS,34.0,76.6,Ya,Ya,Tidak,21.0,92.0,91.0,97.0,100.0,76.0,91.2,Lulus
+STU0089,15.0,Laki-laki,Negeri,S1,Karyawan Swasta,24.0,67.0,Ya,Ya,Tidak,30.0,72.0,81.0,76.0,67.0,62.0,71.6,Lulus
+STU0090,13.0,Perempuan,Swasta,SMA,Wiraswasta,13.0,54.8,Ya,Ya,Tidak,11.0,68.0,49.0,60.0,37.0,72.0,57.2,Tidak Lulus
+STU0091,16.0,Perempuan,Negeri,SMA,Wiraswasta,5.0,83.2,Tidak,Ya,Ya,16.0,53.0,77.0,33.0,68.0,36.0,53.4,Tidak Lulus
+STU0092,18.0,Laki-laki,Swasta,S1,PNS,1.0,92.3,Ya,Ya,Ya,7.0,68.0,64.0,50.0,72.0,58.0,62.4,Tidak Lulus
+STU0093,13.0,Laki-laki,Negeri,SMA,Buruh,7.0,77.3,Ya,Ya,Tidak,68.0,47.0,57.0,52.0,56.0,46.0,51.6,Tidak Lulus
+STU0094,15.0,Laki-laki,Negeri,SMP,Buruh,38.0,91.5,Tidak,Ya,Tidak,87.0,93.0,96.0,100.0,100.0,100.0,97.8,Lulus
+STU0095,16.0,Perempuan,Negeri,S2,Karyawan Swasta,42.0,89.7,Ya,Ya,Ya,46.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0096,12.0,Laki-laki,Negeri,SD,Petani,37.0,94.2,Tidak,Ya,Tidak,121.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0097,12.0,Perempuan,Swasta,SMA,PNS,37.0,90.3,Tidak,Ya,Tidak,115.0,71.0,100.0,67.5,100.0,91.0,85.9,Lulus
+STU0098,15.0,Perempuan,Swasta,SMP,Buruh,18.0,66.2,Ya,Ya,Tidak,48.0,71.0,73.0,64.0,61.0,87.0,71.2,Lulus
+STU0099,15.0,Laki-laki,Swasta,SMP,PNS,35.0,63.1,Ya,Ya,Tidak,44.0,68.0,80.0,99.0,82.0,74.0,80.6,Lulus
+STU0100,16.0,Laki-laki,Swasta,S2,Karyawan Swasta,37.0,58.7,Ya,Ya,Tidak,140.0,81.0,87.0,89.0,96.0,90.0,88.6,Lulus
+STU0101,17.0,Laki-laki,Swasta,SMA,Petani,30.0,80.8,Tidak,Ya,Tidak,34.0,81.0,77.0,78.0,100.0,83.0,83.8,Lulus
+STU0102,14.0,Laki-laki,Negeri,SMP,PNS,7.0,71.4,Tidak,Ya,Tidak,25.0,35.0,59.0,39.0,41.0,47.0,44.2,Tidak Lulus
+STU0103,16.0,Laki-laki,Negeri,SD,Wiraswasta,21.0,46.7,Tidak,Tidak,Ya,65.0,65.0,67.0,37.0,92.0,46.0,61.4,Tidak Lulus
+STU0104,16.0,Laki-laki,Swasta,SMP,Wiraswasta,10.0,58.3,Ya,Ya,Tidak,121.0,48.0,43.0,59.0,45.0,42.0,47.4,Tidak Lulus
+STU0105,12.0,Perempuan,Negeri,SD,Wiraswasta,8.0,55.6,Tidak,Ya,Ya,50.0,49.0,63.0,60.0,43.0,59.0,54.8,Tidak Lulus
+STU0106,14.5,Laki-laki,Swasta,S1,PNS,28.0,47.4,Tidak,Tidak,Ya,15.0,71.0,63.0,88.0,81.0,59.0,72.4,Lulus
+STU0107,14.0,Laki-laki,Negeri,S2,Petani,37.0,67.7,Tidak,Ya,Ya,149.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0108,14.0,Laki-laki,Swasta,SMP,Tidak Bekerja,38.0,53.8,Tidak,Tidak,Ya,92.0,75.0,98.0,89.0,100.0,77.0,87.8,Lulus
+STU0109,14.5,Laki-laki,Swasta,S1,PNS,24.0,72.2,Tidak,Ya,Ya,17.0,67.0,96.0,67.0,60.0,85.0,75.0,Lulus
+STU0110,12.0,Laki-laki,Swasta,S1,Tidak Bekerja,26.0,45.2,Ya,Tidak,Tidak,23.0,52.0,74.0,63.0,70.0,81.0,68.0,Lulus
+STU0111,13.0,Laki-laki,Swasta,S1,Tidak Bekerja,13.0,86.8,Tidak,Ya,Tidak,139.0,80.0,84.0,57.0,65.0,55.0,68.2,Lulus
+STU0112,17.0,Perempuan,Swasta,SMA,Petani,11.0,56.4,Ya,Ya,Tidak,131.0,71.0,60.0,34.0,50.0,54.0,53.8,Tidak Lulus
+STU0113,15.0,Laki-laki,Swasta,S2,Tidak Bekerja,32.0,62.1,Tidak,Tidak,Ya,49.0,88.0,90.0,84.0,72.0,96.0,86.0,Lulus
+STU0114,18.0,Perempuan,Swasta,SD,Tidak Bekerja,4.0,87.7,Ya,Tidak,Ya,66.0,69.0,55.0,60.0,66.0,69.0,63.8,Tidak Lulus
+STU0115,17.0,Perempuan,Swasta,SMA,Karyawan Swasta,9.0,52.3,Tidak,Ya,Ya,11.0,53.0,43.0,50.0,67.0,45.0,51.6,Tidak Lulus
+STU0116,14.0,Perempuan,Swasta,SMA,Buruh,4.0,45.8,Ya,Ya,Ya,52.0,40.0,42.0,25.0,49.0,30.0,37.2,Tidak Lulus
+STU0117,16.0,Perempuan,Negeri,SD,Petani,5.0,72.7,Ya,Ya,Tidak,139.0,56.0,65.0,22.0,53.0,39.0,47.0,Tidak Lulus
+STU0118,14.0,Laki-laki,Negeri,S1,PNS,6.0,94.6,Ya,Tidak,Ya,59.0,57.0,46.0,72.0,50.0,50.0,55.0,Tidak Lulus
+STU0119,14.5,Laki-laki,Swasta,SMP,Petani,2.0,76.6,Tidak,Ya,Tidak,92.0,42.0,57.0,42.0,48.0,49.0,47.6,Tidak Lulus
+STU0120,12.0,Laki-laki,Negeri,S1,Petani,12.0,77.7,Tidak,Ya,Tidak,54.0,43.0,69.0,68.0,84.0,28.0,58.4,Tidak Lulus
+STU0121,14.0,Perempuan,Negeri,S1,Tidak Bekerja,3.0,52.0,Tidak,Tidak,Ya,53.0,39.0,59.0,20.0,29.0,70.0,43.4,Tidak Lulus
+STU0122,17.0,Perempuan,Swasta,S1,Buruh,20.0,51.4,Ya,Tidak,Tidak,60.0,37.0,42.0,38.0,62.0,32.0,42.2,Tidak Lulus
+STU0123,14.0,Laki-laki,Negeri,SD,Wiraswasta,4.0,62.2,Ya,Tidak,Tidak,26.0,47.0,51.0,30.0,50.0,16.0,38.8,Tidak Lulus
+STU0124,12.0,Perempuan,Negeri,SMP,Karyawan Swasta,14.0,97.5,Tidak,Ya,Ya,77.0,79.0,89.0,79.0,100.0,73.0,84.0,Lulus
+STU0125,12.0,Laki-laki,Swasta,S2,Wiraswasta,38.0,61.4,Tidak,Ya,Tidak,78.0,85.0,98.0,80.0,72.0,83.0,83.6,Lulus
+STU0126,15.0,Perempuan,Swasta,SMP,PNS,17.0,53.1,Tidak,Tidak,Tidak,75.0,56.0,65.0,47.0,48.0,50.0,53.2,Tidak Lulus
+STU0127,15.0,Perempuan,Swasta,SD,Tidak Bekerja,5.0,98.4,Ya,Ya,Tidak,34.0,47.0,57.0,49.0,54.0,29.0,47.2,Tidak Lulus
+STU0128,14.0,Laki-laki,Negeri,S1,Karyawan Swasta,6.0,64.3,Tidak,Ya,Tidak,109.0,26.0,60.0,43.0,46.0,43.0,43.6,Tidak Lulus
+STU0129,14.0,Laki-laki,Negeri,SMA,Petani,21.0,80.1,Tidak,Tidak,Ya,35.0,88.0,77.0,71.0,78.0,72.0,77.2,Lulus
+STU0130,12.0,Laki-laki,Negeri,S1,Petani,20.0,45.3,Tidak,Ya,Ya,90.0,75.0,71.0,55.0,76.5,90.0,73.5,Lulus
+STU0131,13.0,Perempuan,Swasta,S1,Wiraswasta,19.0,54.8,Tidak,Ya,Ya,32.0,73.0,66.0,60.0,76.0,66.0,68.2,Lulus
+STU0132,17.0,Laki-laki,Negeri,SD,PNS,22.0,98.7,Tidak,Ya,Tidak,104.0,78.0,100.0,95.0,81.0,82.0,87.2,Lulus
+STU0133,18.0,Laki-laki,Negeri,SMA,Karyawan Swasta,19.0,78.4,Tidak,Ya,Ya,94.0,73.0,98.0,74.0,76.5,96.0,83.5,Lulus
+STU0134,14.0,Laki-laki,Swasta,S1,Karyawan Swasta,24.0,53.8,Tidak,Ya,Ya,32.0,74.0,76.0,82.0,77.0,59.0,73.6,Lulus
+STU0135,14.0,Perempuan,Swasta,SMA,Wiraswasta,14.0,72.2,Tidak,Ya,Ya,90.0,65.0,84.0,87.0,56.0,69.0,72.2,Lulus
+STU0136,15.0,Laki-laki,Negeri,SD,PNS,22.0,94.0,Ya,Ya,Ya,8.0,88.0,100.0,80.0,89.0,90.0,89.4,Lulus
+STU0137,13.0,Perempuan,Negeri,SMP,PNS,19.0,62.0,Tidak,Ya,Tidak,110.0,68.0,72.0,62.0,63.0,70.0,67.0,Lulus
+STU0138,13.0,Laki-laki,Negeri,S1,PNS,26.0,96.3,Ya,Ya,Tidak,81.0,93.0,87.0,79.0,93.0,100.0,90.4,Lulus
+STU0139,14.0,Laki-laki,Negeri,SD,Wiraswasta,35.0,71.4,Ya,Tidak,Tidak,41.0,82.0,97.0,81.0,94.0,90.0,88.8,Lulus
+STU0140,15.0,Laki-laki,Negeri,SD,Karyawan Swasta,21.0,98.6,Ya,Ya,Tidak,115.0,74.0,93.0,91.0,81.0,84.0,84.6,Lulus
+STU0141,18.0,Laki-laki,Negeri,SMP,PNS,38.0,85.2,Tidak,Ya,Tidak,13.0,100.0,94.0,100.0,100.0,100.0,98.8,Lulus
+STU0142,13.0,Perempuan,Swasta,S1,Petani,14.0,56.7,Ya,Tidak,Ya,67.0,44.0,51.0,35.0,65.0,48.0,48.6,Tidak Lulus
+STU0143,12.0,Perempuan,Swasta,S2,PNS,10.0,56.8,Tidak,Tidak,Tidak,78.0,50.0,52.0,29.0,50.0,52.0,46.6,Tidak Lulus
+STU0144,14.0,Laki-laki,Negeri,S1,Petani,15.0,68.9,Tidak,Tidak,Ya,6.0,54.0,67.0,56.0,67.0,45.0,57.8,Tidak Lulus
+STU0145,18.0,Laki-laki,Swasta,SMP,Petani,14.0,78.8,Tidak,Ya,Tidak,36.0,63.0,76.0,47.0,60.0,39.0,57.0,Tidak Lulus
+STU0146,17.0,Laki-laki,Negeri,SMA,Petani,34.0,88.6,Ya,Tidak,Tidak,84.0,100.0,77.0,95.0,100.0,88.0,92.0,Lulus
+STU0147,18.0,Laki-laki,Swasta,SMP,Wiraswasta,31.0,66.6,Tidak,Tidak,Ya,11.0,94.0,100.0,92.0,75.0,83.0,88.8,Lulus
+STU0148,17.0,Laki-laki,Negeri,SMP,Buruh,1.0,73.3,Ya,Tidak,Ya,146.0,24.0,37.0,41.0,50.0,70.0,44.4,Tidak Lulus
+STU0149,15.0,Perempuan,Negeri,SMP,Wiraswasta,20.0,51.2,Ya,Ya,Ya,39.0,70.0,80.0,72.0,69.0,61.0,70.4,Lulus
+STU0150,13.0,Laki-laki,Swasta,SD,PNS,4.0,72.6,Ya,Ya,Tidak,33.0,18.0,48.0,59.0,45.0,37.0,41.4,Tidak Lulus
+STU0151,17.0,Laki-laki,Negeri,SMA,PNS,34.0,71.4,Tidak,Tidak,Ya,8.0,100.0,100.0,100.0,94.0,100.0,98.8,Lulus
+STU0152,12.0,Perempuan,Swasta,SMA,Tidak Bekerja,11.0,62.3,Ya,Tidak,Tidak,84.0,45.0,59.0,52.0,51.0,69.0,55.2,Tidak Lulus
+STU0153,13.0,Laki-laki,Swasta,SD,Buruh,21.0,56.5,Ya,Ya,Ya,139.0,81.0,60.0,79.0,79.0,76.0,75.0,Lulus
+STU0154,17.0,Laki-laki,Swasta,SD,PNS,26.0,87.9,Ya,Tidak,Ya,124.0,71.0,94.0,73.0,99.0,91.0,85.6,Lulus
+STU0155,12.0,Laki-laki,Negeri,S1,Buruh,1.0,98.0,Tidak,Ya,Ya,115.0,67.0,58.0,45.0,51.0,55.0,55.2,Tidak Lulus
+STU0156,18.0,Laki-laki,Negeri,S2,Buruh,39.0,93.6,Tidak,Ya,Ya,84.0,100.0,100.0,97.0,100.0,100.0,99.4,Lulus
+STU0157,12.0,Laki-laki,Swasta,SMP,Buruh,7.0,80.5,Tidak,Ya,Tidak,126.0,65.0,76.0,62.0,65.0,44.0,62.4,Tidak Lulus
+STU0158,13.0,Perempuan,Negeri,SD,Petani,37.0,99.7,Ya,Ya,Tidak,148.0,95.0,100.0,100.0,100.0,100.0,99.0,Lulus
+STU0159,17.0,Laki-laki,Negeri,SMA,Tidak Bekerja,29.0,84.6,Ya,Ya,Ya,92.0,92.0,100.0,91.0,100.0,91.0,94.8,Lulus
+STU0160,14.0,Laki-laki,Negeri,SMA,Tidak Bekerja,38.0,55.0,Ya,Ya,Tidak,72.0,80.0,84.0,69.0,100.0,80.0,82.6,Lulus
+STU0161,18.0,Perempuan,Negeri,S2,Wiraswasta,27.0,80.3,Ya,Ya,Ya,67.0,83.0,87.0,86.0,84.0,91.0,86.2,Lulus
+STU0162,14.0,Perempuan,Swasta,SMP,Tidak Bekerja,13.0,48.1,Ya,Ya,Tidak,38.0,66.0,56.0,57.0,55.0,51.0,57.0,Tidak Lulus
+STU0163,18.0,Laki-laki,Swasta,SMA,Tidak Bekerja,24.0,67.9,Ya,Ya,Tidak,54.0,81.0,72.0,84.0,69.0,81.0,77.4,Lulus
+STU0164,17.0,Laki-laki,Negeri,S2,Petani,37.0,67.8,Tidak,Ya,Tidak,34.0,100.0,100.0,80.0,95.0,78.0,90.6,Lulus
+STU0165,18.0,Perempuan,Swasta,SMA,Tidak Bekerja,39.0,60.2,Tidak,Ya,Tidak,39.0,83.0,99.0,77.0,83.0,87.0,85.8,Lulus
+STU0166,15.0,Perempuan,Negeri,S1,Wiraswasta,40.0,91.7,Tidak,Tidak,Tidak,29.0,99.0,100.0,88.0,82.0,77.0,89.2,Lulus
+STU0167,13.0,Laki-laki,Swasta,S1,PNS,5.0,77.7,Tidak,Tidak,Tidak,65.0,25.0,39.0,67.5,43.0,69.0,48.7,Tidak Lulus
+STU0168,18.0,Perempuan,Negeri,SMP,PNS,20.0,69.2,Ya,Ya,Tidak,150.0,76.0,86.0,62.0,71.0,75.0,74.0,Lulus
+STU0169,18.0,Laki-laki,Negeri,SMA,Wiraswasta,40.0,81.0,Tidak,Ya,Tidak,38.0,100.0,100.0,95.0,100.0,92.0,97.4,Lulus
+STU0170,15.0,Laki-laki,Negeri,SMA,Buruh,6.0,51.6,Tidak,Ya,Tidak,149.0,44.0,39.0,51.0,76.5,70.0,56.1,Tidak Lulus
+STU0171,14.0,Laki-laki,Swasta,S2,Tidak Bekerja,33.0,55.0,Tidak,Tidak,Tidak,52.0,79.0,81.0,72.0,72.0,74.0,75.6,Lulus
+STU0172,14.0,Perempuan,Negeri,S1,PNS,26.0,97.0,Ya,Tidak,Tidak,123.0,88.0,81.0,82.0,80.0,72.0,80.6,Lulus
+STU0173,15.0,Perempuan,Negeri,S1,Wiraswasta,6.0,71.4,Ya,Tidak,Tidak,15.0,29.0,55.0,63.0,46.0,59.0,50.4,Tidak Lulus
+STU0174,14.0,Perempuan,Negeri,SD,Karyawan Swasta,14.0,59.1,Ya,Ya,Tidak,19.0,63.0,60.0,53.0,68.0,51.0,59.0,Tidak Lulus
+STU0175,12.0,Perempuan,Negeri,S1,Wiraswasta,22.0,65.6,Tidak,Ya,Ya,140.0,49.0,74.0,40.0,53.0,54.0,54.0,Tidak Lulus
+STU0176,13.0,Perempuan,Swasta,SD,Petani,11.0,84.6,Tidak,Ya,Tidak,52.0,59.0,55.0,48.0,60.0,36.0,51.6,Tidak Lulus
+STU0177,17.0,Perempuan,Swasta,SMA,Buruh,11.0,72.5,Ya,Ya,Tidak,96.0,36.0,63.0,44.0,48.0,50.0,48.2,Tidak Lulus
+STU0178,16.0,Laki-laki,Negeri,SMA,Buruh,22.0,55.3,Ya,Tidak,Tidak,97.0,45.0,41.0,17.0,39.0,36.0,35.6,Tidak Lulus
+STU0179,12.0,Laki-laki,Swasta,SMA,PNS,14.0,61.0,Tidak,Ya,Tidak,46.0,61.0,55.0,57.0,72.0,63.0,61.6,Tidak Lulus
+STU0180,13.0,Laki-laki,Swasta,SMP,Petani,7.0,45.3,Ya,Ya,Ya,78.0,51.0,55.0,43.0,72.0,24.0,49.0,Tidak Lulus
+STU0181,12.0,Laki-laki,Swasta,SD,Petani,12.0,60.2,Ya,Ya,Tidak,102.0,40.0,62.0,61.0,66.0,29.0,51.6,Tidak Lulus
+STU0182,12.0,Perempuan,Swasta,SD,PNS,19.0,75.6,Ya,Ya,Tidak,14.0,72.0,62.0,77.0,61.0,64.0,67.2,Lulus
+STU0183,14.0,Perempuan,Swasta,S1,Karyawan Swasta,8.0,66.9,Tidak,Ya,Tidak,116.0,64.0,53.0,45.0,49.0,69.0,56.0,Tidak Lulus
+STU0184,17.0,Perempuan,Swasta,S1,Petani,8.0,98.4,Tidak,Ya,Tidak,79.0,68.0,51.0,72.0,44.0,45.0,56.0,Tidak Lulus
+STU0185,16.0,Laki-laki,Negeri,SMP,PNS,24.0,48.9,Tidak,Tidak,Tidak,50.0,77.0,55.0,67.0,61.0,51.0,62.2,Tidak Lulus
+STU0186,16.0,Perempuan,Swasta,SMP,Wiraswasta,11.0,58.6,Tidak,Ya,Tidak,15.0,49.0,52.0,66.0,49.0,48.0,52.8,Tidak Lulus
+STU0187,17.0,Laki-laki,Negeri,SD,Petani,22.0,78.6,Tidak,Ya,Tidak,27.0,68.0,95.0,71.0,77.0,75.0,77.2,Lulus
+STU0188,18.0,Laki-laki,Swasta,SMA,PNS,22.0,54.5,Tidak,Tidak,Tidak,44.0,63.0,63.0,58.0,55.0,70.0,61.8,Tidak Lulus
+STU0189,15.0,Perempuan,Negeri,SMP,Buruh,14.0,55.6,Tidak,Ya,Ya,83.0,57.0,67.0,64.0,50.0,61.0,59.8,Tidak Lulus
+STU0190,12.0,Perempuan,Negeri,S1,Buruh,29.0,86.3,Tidak,Tidak,Tidak,116.0,82.0,94.0,78.0,79.0,71.0,80.8,Lulus
+STU0191,14.0,Perempuan,Swasta,S2,Karyawan Swasta,8.0,91.5,Tidak,Tidak,Ya,53.0,63.0,59.0,54.0,52.0,43.0,54.2,Tidak Lulus
+STU0192,12.0,Laki-laki,Negeri,SMP,Petani,41.0,78.3,Ya,Ya,Tidak,32.0,100.0,100.0,92.0,100.0,97.0,97.8,Lulus
+STU0193,12.0,Laki-laki,Negeri,SMP,Tidak Bekerja,19.0,72.6,Tidak,Tidak,Tidak,40.0,57.0,75.0,77.0,58.0,51.0,63.6,Tidak Lulus
+STU0194,16.0,Perempuan,Swasta,SMA,Wiraswasta,25.0,77.0,Tidak,Ya,Tidak,46.0,85.0,80.0,70.0,74.0,54.0,72.6,Lulus
+STU0195,12.0,Perempuan,Negeri,S1,Petani,38.0,45.3,Ya,Tidak,Tidak,66.0,75.0,93.0,89.0,82.0,94.0,86.6,Lulus
+STU0196,17.0,Perempuan,Swasta,SMA,Tidak Bekerja,5.0,96.9,Tidak,Ya,Tidak,117.0,67.0,58.0,52.0,70.0,52.0,59.8,Tidak Lulus
+STU0197,13.0,Laki-laki,Negeri,S1,PNS,15.0,56.3,Tidak,Tidak,Tidak,39.0,41.0,61.0,34.0,51.0,46.0,46.6,Tidak Lulus
+STU0198,13.0,Laki-laki,Negeri,S1,Petani,17.0,55.0,Ya,Tidak,Ya,114.0,45.0,47.0,64.0,48.0,40.0,48.8,Tidak Lulus
+STU0199,12.0,Perempuan,Negeri,S2,Wiraswasta,30.0,97.1,Ya,Tidak,Tidak,99.0,93.0,92.0,87.0,76.5,100.0,89.7,Lulus
+STU0200,16.0,Perempuan,Negeri,SMP,Tidak Bekerja,19.0,88.0,Ya,Tidak,Ya,23.0,70.0,77.0,71.0,82.0,84.0,76.8,Lulus
+STU0201,18.0,Perempuan,Negeri,S2,PNS,10.0,55.8,Ya,Ya,Tidak,136.0,53.0,39.0,55.0,42.0,59.0,49.6,Tidak Lulus
+STU0202,13.0,Perempuan,Swasta,SMP,PNS,3.0,75.1,Tidak,Tidak,Tidak,146.0,45.0,53.0,30.0,31.0,44.0,40.6,Tidak Lulus
+STU0203,17.0,Perempuan,Negeri,SMP,Buruh,17.0,52.6,Ya,Ya,Ya,129.0,78.0,64.0,75.0,61.0,65.0,68.6,Lulus
+STU0204,17.0,Laki-laki,Swasta,S1,Karyawan Swasta,20.0,66.7,Tidak,Ya,Tidak,90.0,41.0,53.0,32.0,56.0,42.0,44.8,Tidak Lulus
+STU0205,18.0,Laki-laki,Negeri,SD,Tidak Bekerja,18.0,79.7,Tidak,Tidak,Ya,48.0,82.0,90.0,69.0,66.0,100.0,81.4,Lulus
+STU0206,18.0,Laki-laki,Negeri,SMP,Tidak Bekerja,18.0,86.8,Ya,Ya,Tidak,22.0,69.0,58.0,69.0,70.0,53.0,63.8,Tidak Lulus
+STU0207,18.0,Perempuan,Swasta,SD,Wiraswasta,25.0,59.4,Tidak,Ya,Ya,5.0,62.0,71.0,73.0,88.0,69.0,72.6,Lulus
+STU0208,13.0,Laki-laki,Negeri,S2,Karyawan Swasta,25.0,67.1,Tidak,Tidak,Tidak,143.0,69.0,78.0,67.0,69.0,67.0,70.0,Lulus
+STU0209,12.0,Laki-laki,Swasta,S2,Tidak Bekerja,17.0,56.8,Tidak,Ya,Tidak,111.0,57.0,61.0,61.0,60.0,58.0,59.4,Tidak Lulus
+STU0210,17.0,Perempuan,Swasta,SMP,Wiraswasta,16.0,48.8,Tidak,Ya,Ya,36.0,52.0,86.0,69.0,61.0,41.0,61.8,Tidak Lulus
+STU0211,16.0,Perempuan,Negeri,SMA,Karyawan Swasta,21.0,66.9,Tidak,Ya,Ya,76.0,74.0,77.0,82.0,94.0,91.0,83.6,Lulus
+STU0212,14.0,Laki-laki,Negeri,SD,Tidak Bekerja,22.0,63.1,Tidak,Ya,Tidak,7.0,38.0,56.0,68.0,64.0,41.0,53.4,Tidak Lulus
+STU0213,13.0,Laki-laki,Negeri,S2,Tidak Bekerja,31.0,53.2,Ya,Ya,Tidak,132.0,61.0,82.0,54.0,63.0,61.0,64.2,Tidak Lulus
+STU0214,15.0,Perempuan,Swasta,SMA,Tidak Bekerja,30.0,92.4,Tidak,Tidak,Ya,96.0,100.0,98.0,92.0,100.0,94.0,96.8,Lulus
+STU0215,16.0,Laki-laki,Negeri,S1,Wiraswasta,17.0,95.1,Tidak,Ya,Tidak,124.0,69.0,82.0,65.0,62.0,46.0,64.8,Tidak Lulus
+STU0216,18.0,Laki-laki,Negeri,S2,Tidak Bekerja,28.0,76.1,Tidak,Ya,Tidak,9.0,78.0,77.0,67.0,85.0,95.0,80.4,Lulus
+STU0217,13.0,Laki-laki,Swasta,SD,Karyawan Swasta,33.0,56.1,Ya,Ya,Tidak,72.0,65.0,100.0,82.0,81.0,91.0,83.8,Lulus
+STU0218,12.0,Perempuan,Negeri,SD,PNS,21.0,96.8,Ya,Ya,Tidak,135.0,86.0,72.0,80.0,68.0,63.0,73.8,Lulus
+STU0219,13.0,Laki-laki,Swasta,SD,Karyawan Swasta,2.0,73.7,Tidak,Ya,Tidak,72.0,60.0,46.0,36.0,51.0,23.0,43.2,Tidak Lulus
+STU0220,12.0,Laki-laki,Swasta,SMP,Karyawan Swasta,34.0,60.8,Tidak,Ya,Tidak,38.0,76.0,80.0,63.0,70.0,71.0,72.0,Lulus
+STU0221,15.0,Laki-laki,Swasta,SMP,Buruh,4.0,57.8,Tidak,Ya,Tidak,30.0,39.0,53.0,45.0,38.0,69.0,48.8,Tidak Lulus
+STU0222,16.0,Perempuan,Negeri,SMP,Petani,16.0,46.8,Ya,Ya,Ya,115.0,66.0,62.0,47.0,68.0,59.0,60.4,Tidak Lulus
+STU0223,14.0,Perempuan,Negeri,SMP,Tidak Bekerja,38.0,66.6,Ya,Ya,Tidak,133.0,100.0,88.0,92.0,93.0,77.0,90.0,Lulus
+STU0224,17.0,Perempuan,Swasta,SMA,Buruh,39.0,94.9,Tidak,Ya,Tidak,10.0,100.0,100.0,100.0,100.0,69.0,93.8,Lulus
+STU0225,17.0,Laki-laki,Negeri,S1,PNS,31.0,51.1,Tidak,Tidak,Ya,37.0,62.0,82.0,66.0,95.0,78.0,76.6,Lulus
+STU0226,14.0,Laki-laki,Negeri,SD,PNS,39.0,68.3,Ya,Ya,Ya,57.0,74.0,100.0,89.0,100.0,87.0,90.0,Lulus
+STU0227,12.0,Laki-laki,Negeri,SMP,Petani,31.0,92.1,Ya,Tidak,Ya,109.0,100.0,91.0,95.0,100.0,75.0,92.2,Lulus
+STU0228,13.0,Laki-laki,Swasta,S1,Karyawan Swasta,25.0,62.7,Ya,Ya,Tidak,56.0,80.0,74.0,89.0,64.0,60.0,73.4,Lulus
+STU0229,13.0,Laki-laki,Swasta,SMP,Karyawan Swasta,20.0,51.8,Tidak,Tidak,Ya,100.0,67.0,62.0,64.0,65.0,69.0,65.4,Lulus
+STU0230,14.0,Laki-laki,Swasta,SMA,PNS,27.0,86.3,Ya,Ya,Tidak,123.0,78.0,92.0,77.0,74.0,74.0,79.0,Lulus
+STU0231,17.0,Laki-laki,Negeri,SD,Wiraswasta,26.0,68.5,Tidak,Ya,Ya,97.0,72.0,86.0,85.0,90.0,96.0,85.8,Lulus
+STU0232,12.0,Laki-laki,Negeri,SMP,Tidak Bekerja,9.0,49.2,Tidak,Ya,Tidak,40.0,53.0,56.0,52.0,47.0,60.0,53.6,Tidak Lulus
+STU0233,12.0,Perempuan,Swasta,S1,Buruh,34.0,88.2,Tidak,Ya,Tidak,48.0,68.0,100.0,76.0,82.0,93.0,83.8,Lulus
+STU0234,15.0,Perempuan,Negeri,S1,Petani,31.0,57.1,Tidak,Ya,Ya,99.0,74.0,89.0,86.0,100.0,80.0,85.8,Lulus
+STU0235,12.0,Perempuan,Negeri,SD,Karyawan Swasta,35.0,48.9,Ya,Ya,Tidak,65.0,80.0,90.0,73.0,72.0,61.0,75.2,Lulus
+STU0236,12.0,Perempuan,Swasta,SMA,Buruh,19.0,81.9,Ya,Ya,Tidak,137.0,69.0,92.0,67.0,72.0,80.0,76.0,Lulus
+STU0237,13.0,Laki-laki,Swasta,SMA,Wiraswasta,13.0,83.6,Tidak,Ya,Tidak,150.0,51.0,73.0,57.0,81.0,45.0,61.4,Tidak Lulus
+STU0238,17.0,Perempuan,Swasta,S2,Buruh,36.0,92.3,Ya,Ya,Tidak,67.0,100.0,100.0,83.0,88.0,95.0,93.2,Lulus
+STU0239,15.0,Perempuan,Swasta,S2,Buruh,7.0,46.1,Tidak,Ya,Tidak,69.0,45.0,40.0,42.0,31.0,27.0,37.0,Tidak Lulus
+STU0240,15.0,Laki-laki,Negeri,SMP,Tidak Bekerja,16.0,85.4,Tidak,Ya,Tidak,46.0,50.0,75.0,65.0,60.0,70.0,64.0,Tidak Lulus
+STU0241,14.5,Laki-laki,Swasta,SD,Petani,16.0,97.9,Tidak,Ya,Ya,124.0,84.0,82.0,100.0,72.0,69.0,81.4,Lulus
+STU0242,18.0,Perempuan,Swasta,S2,Karyawan Swasta,17.0,72.2,Ya,Tidak,Ya,94.0,69.0,70.0,79.0,75.0,68.0,72.2,Lulus
+STU0243,14.0,Laki-laki,Negeri,SMP,Petani,5.0,81.9,Tidak,Ya,Tidak,132.0,36.0,77.0,44.0,66.0,46.0,53.8,Tidak Lulus
+STU0244,18.0,Perempuan,Swasta,S2,Wiraswasta,14.0,56.2,Tidak,Ya,Ya,142.0,63.0,76.0,62.0,72.0,40.0,62.6,Tidak Lulus
+STU0245,13.0,Perempuan,Swasta,S1,Petani,27.0,69.3,Tidak,Ya,Ya,37.0,71.0,86.0,91.0,64.0,82.0,78.8,Lulus
+STU0246,13.0,Laki-laki,Swasta,SD,Buruh,8.0,68.7,Tidak,Tidak,Tidak,24.0,50.0,50.0,48.0,54.0,69.0,54.2,Tidak Lulus
+STU0247,14.5,Laki-laki,Swasta,S2,Karyawan Swasta,18.0,48.6,Tidak,Ya,Ya,109.0,77.0,66.0,52.0,60.0,63.0,63.6,Tidak Lulus
+STU0248,12.0,Perempuan,Negeri,SMA,PNS,9.0,48.3,Ya,Ya,Tidak,116.0,66.0,47.0,46.0,47.0,23.0,45.8,Tidak Lulus
+STU0249,14.0,Laki-laki,Swasta,SMA,Karyawan Swasta,19.0,90.2,Tidak,Tidak,Tidak,40.0,54.0,78.0,56.0,61.0,47.0,59.2,Tidak Lulus
+STU0250,13.0,Laki-laki,Swasta,S2,PNS,32.0,77.1,Tidak,Tidak,Ya,78.0,100.0,99.0,100.0,85.0,93.0,95.4,Lulus
+STU0251,14.0,Perempuan,Swasta,SD,Petani,21.0,61.9,Ya,Ya,Ya,135.0,62.0,72.0,53.0,84.0,86.0,71.4,Lulus
+STU0252,14.0,Perempuan,Swasta,SMA,PNS,36.0,82.6,Ya,Ya,Tidak,20.0,96.0,100.0,82.0,100.0,97.0,95.0,Lulus
+STU0253,18.0,Perempuan,Swasta,SMP,Buruh,20.0,52.5,Ya,Ya,Tidak,74.0,91.0,81.0,64.0,78.0,68.0,76.4,Lulus
+STU0254,18.0,Perempuan,Negeri,SD,Karyawan Swasta,7.0,64.9,Ya,Ya,Tidak,64.0,62.0,45.0,39.0,59.0,36.0,48.2,Tidak Lulus
+STU0255,14.0,Laki-laki,Negeri,S2,Karyawan Swasta,34.0,53.8,Ya,Ya,Tidak,136.0,62.0,87.0,86.0,89.0,76.0,80.0,Lulus
+STU0256,15.0,Perempuan,Negeri,S1,Karyawan Swasta,42.0,88.1,Ya,Ya,Tidak,13.0,100.0,77.0,100.0,100.0,100.0,95.4,Lulus
+STU0257,13.0,Laki-laki,Negeri,SMP,Petani,32.0,58.5,Ya,Ya,Tidak,83.0,81.0,100.0,67.0,88.0,77.0,82.6,Lulus
+STU0258,18.0,Perempuan,Negeri,SMA,Tidak Bekerja,7.0,83.3,Tidak,Ya,Tidak,61.0,46.0,67.0,47.0,61.0,67.0,57.6,Tidak Lulus
+STU0259,12.0,Laki-laki,Negeri,SD,Tidak Bekerja,25.0,66.2,Tidak,Ya,Ya,18.0,100.0,96.0,74.0,100.0,88.0,91.6,Lulus
+STU0260,13.0,Laki-laki,Swasta,SMA,PNS,19.0,60.9,Ya,Tidak,Tidak,108.0,63.0,64.0,56.0,55.0,51.0,57.8,Tidak Lulus
+STU0261,17.0,Perempuan,Swasta,SMA,Wiraswasta,13.0,88.3,Ya,Ya,Ya,105.0,57.0,73.0,79.0,70.0,70.0,69.8,Lulus
+STU0262,17.0,Laki-laki,Negeri,S2,Karyawan Swasta,25.0,71.4,Tidak,Ya,Tidak,140.0,100.0,83.0,72.0,78.0,80.0,82.6,Lulus
+STU0263,18.0,Perempuan,Negeri,SMP,Buruh,35.0,88.0,Tidak,Tidak,Tidak,41.0,83.0,95.0,90.0,92.0,84.0,88.8,Lulus
+STU0264,15.0,Perempuan,Negeri,S2,Petani,15.0,55.2,Ya,Tidak,Tidak,96.0,52.0,60.0,62.0,60.0,63.0,59.4,Tidak Lulus
+STU0265,14.0,Laki-laki,Negeri,SMP,Petani,40.0,91.0,Ya,Tidak,Tidak,149.0,97.0,100.0,99.0,100.0,100.0,99.2,Lulus
+STU0266,16.0,Laki-laki,Negeri,S2,PNS,27.0,65.4,Ya,Tidak,Ya,150.0,76.0,86.0,70.0,82.0,78.0,78.4,Lulus
+STU0267,14.0,Perempuan,Swasta,SMA,Tidak Bekerja,41.0,53.3,Tidak,Ya,Tidak,95.0,75.0,99.0,100.0,82.0,100.0,91.2,Lulus
+STU0268,15.0,Laki-laki,Swasta,SMP,Wiraswasta,25.0,62.8,Tidak,Ya,Ya,76.0,75.0,87.0,56.0,91.0,75.0,76.8,Lulus
+STU0269,17.0,Laki-laki,Negeri,SMP,Tidak Bekerja,28.0,84.1,Tidak,Ya,Ya,38.0,100.0,98.0,94.0,100.0,96.0,97.6,Lulus
+STU0270,14.0,Perempuan,Swasta,S1,PNS,34.0,99.2,Ya,Ya,Ya,132.0,100.0,100.0,100.0,96.0,100.0,99.2,Lulus
+STU0271,17.0,Laki-laki,Swasta,SMA,Tidak Bekerja,11.0,62.2,Ya,Ya,Ya,85.0,62.0,76.0,53.0,40.0,55.0,57.2,Tidak Lulus
+STU0272,18.0,Laki-laki,Negeri,S1,Wiraswasta,5.0,57.3,Tidak,Tidak,Ya,109.0,44.0,45.0,36.0,54.0,37.0,43.2,Tidak Lulus
+STU0273,14.0,Laki-laki,Negeri,S2,Buruh,34.0,65.0,Tidak,Ya,Tidak,60.0,96.0,97.0,78.0,89.0,77.0,87.4,Lulus
+STU0274,15.0,Laki-laki,Swasta,SD,PNS,17.0,58.6,Ya,Ya,Ya,103.0,72.0,64.0,66.0,82.0,73.0,71.4,Lulus
+STU0275,12.0,Perempuan,Negeri,SMP,Petani,2.0,94.5,Ya,Ya,Tidak,135.0,52.0,63.0,45.0,48.0,34.0,48.4,Tidak Lulus
+STU0276,18.0,Laki-laki,Negeri,SD,Tidak Bekerja,35.0,92.3,Ya,Ya,Tidak,7.0,100.0,100.0,89.0,100.0,99.0,97.6,Lulus
+STU0277,18.0,Perempuan,Swasta,SD,Karyawan Swasta,10.0,89.5,Ya,Tidak,Tidak,34.0,52.0,71.0,45.0,55.0,56.0,55.8,Tidak Lulus
+STU0278,14.0,Laki-laki,Swasta,S2,Buruh,16.0,79.8,Ya,Ya,Tidak,121.0,71.0,61.0,66.0,77.0,38.0,62.6,Tidak Lulus
+STU0279,15.0,Perempuan,Negeri,SD,Karyawan Swasta,27.0,54.9,Ya,Tidak,Tidak,79.0,82.0,75.0,71.0,60.0,71.0,71.8,Lulus
+STU0280,18.0,Laki-laki,Negeri,SMP,Wiraswasta,17.0,62.1,Tidak,Tidak,Tidak,105.0,57.0,52.0,74.0,48.0,59.0,58.0,Tidak Lulus
+STU0281,17.0,Perempuan,Negeri,SD,Wiraswasta,11.0,77.3,Ya,Ya,Tidak,23.0,61.0,61.0,71.0,63.0,53.0,61.8,Tidak Lulus
+STU0282,13.0,Perempuan,Swasta,S1,PNS,10.0,97.0,Tidak,Ya,Ya,28.0,66.0,69.0,76.0,76.0,88.0,75.0,Lulus
+STU0283,16.0,Perempuan,Swasta,SD,Tidak Bekerja,1.0,51.9,Ya,Ya,Tidak,65.0,71.0,37.0,24.0,25.0,25.0,36.4,Tidak Lulus
+STU0284,18.0,Laki-laki,Negeri,SD,Tidak Bekerja,30.0,96.4,Tidak,Ya,Tidak,97.0,100.0,77.0,89.0,91.0,89.0,89.2,Lulus
+STU0285,13.0,Laki-laki,Negeri,SMA,Buruh,3.0,86.3,Tidak,Ya,Ya,132.0,58.0,74.0,51.0,76.5,48.0,61.5,Tidak Lulus
+STU0286,16.0,Perempuan,Negeri,S1,Buruh,7.0,61.2,Tidak,Ya,Ya,87.0,56.0,46.0,37.0,76.5,71.0,57.3,Tidak Lulus
+STU0287,14.5,Perempuan,Swasta,SMA,Petani,32.0,87.7,Ya,Ya,Ya,119.0,100.0,100.0,100.0,100.0,79.0,95.8,Lulus
+STU0288,13.0,Perempuan,Swasta,S2,Karyawan Swasta,23.0,45.3,Ya,Ya,Tidak,58.0,47.0,63.0,61.0,62.0,36.0,53.8,Tidak Lulus
+STU0289,14.0,Laki-laki,Swasta,S2,Wiraswasta,19.0,96.0,Ya,Ya,Ya,147.0,89.0,83.0,100.0,86.0,86.0,88.8,Lulus
+STU0290,17.0,Laki-laki,Negeri,SMP,Petani,16.0,69.6,Tidak,Ya,Ya,82.0,68.0,79.0,67.0,69.0,56.0,67.8,Lulus
+STU0291,15.0,Laki-laki,Swasta,SD,Wiraswasta,5.0,99.2,Ya,Ya,Tidak,84.0,55.0,76.0,55.0,55.0,54.0,59.0,Tidak Lulus
+STU0292,15.0,Laki-laki,Negeri,SMP,PNS,25.0,78.9,Tidak,Ya,Tidak,42.0,80.0,69.0,84.0,73.0,66.0,74.4,Lulus
+STU0293,18.0,Laki-laki,Negeri,SMP,Wiraswasta,12.0,56.5,Ya,Ya,Tidak,139.0,65.0,50.0,43.0,52.0,56.0,53.2,Tidak Lulus
+STU0294,12.0,Perempuan,Swasta,SMA,Karyawan Swasta,13.0,85.0,Ya,Ya,Tidak,62.0,48.0,75.0,49.0,66.0,69.0,61.4,Tidak Lulus
+STU0295,16.0,Laki-laki,Negeri,SMA,Petani,20.0,71.4,Ya,Tidak,Ya,52.0,68.0,83.0,67.0,64.0,56.0,67.6,Lulus
+STU0296,17.0,Laki-laki,Swasta,SMA,Tidak Bekerja,10.0,50.3,Ya,Tidak,Ya,92.0,46.0,62.0,56.0,61.0,69.0,58.8,Tidak Lulus
+STU0297,16.0,Perempuan,Negeri,SMA,Petani,38.0,71.4,Tidak,Ya,Ya,77.0,95.0,100.0,95.0,99.0,98.0,97.4,Lulus
+STU0298,12.0,Laki-laki,Swasta,S1,PNS,25.0,50.7,Ya,Ya,Tidak,103.0,67.0,79.0,100.0,66.0,51.0,72.6,Lulus
+STU0299,12.0,Perempuan,Swasta,SD,Petani,26.0,80.1,Ya,Tidak,Tidak,78.0,74.0,76.0,84.0,70.0,79.0,76.6,Lulus
+STU0300,18.0,Perempuan,Negeri,SMP,Buruh,15.0,99.8,Ya,Ya,Tidak,42.0,71.0,77.0,54.0,82.0,61.0,69.0,Lulus
+STU0301,18.0,Perempuan,Swasta,SMA,Petani,25.0,74.4,Tidak,Ya,Tidak,103.0,69.0,85.0,74.0,72.0,99.0,79.8,Lulus
+STU0302,13.0,Perempuan,Swasta,S2,PNS,11.0,78.4,Ya,Ya,Ya,58.0,66.0,62.0,38.0,72.0,64.0,60.4,Tidak Lulus
+STU0303,17.0,Laki-laki,Negeri,S1,Wiraswasta,29.0,81.5,Tidak,Tidak,Tidak,79.0,81.0,100.0,71.0,63.0,72.0,77.4,Lulus
+STU0304,12.0,Laki-laki,Negeri,SMP,Petani,14.0,56.5,Tidak,Tidak,Tidak,56.0,36.0,64.0,31.0,63.0,70.0,52.8,Tidak Lulus
+STU0305,15.0,Perempuan,Swasta,SMP,Tidak Bekerja,37.0,52.8,Ya,Tidak,Tidak,26.0,80.0,94.0,75.0,72.0,79.0,80.0,Lulus
+STU0306,12.0,Perempuan,Negeri,SD,Karyawan Swasta,4.0,47.9,Tidak,Ya,Tidak,91.0,27.0,42.0,71.0,46.0,34.0,44.0,Tidak Lulus
+STU0307,18.0,Perempuan,Swasta,SMA,Wiraswasta,16.0,62.4,Tidak,Ya,Ya,30.0,65.0,66.0,53.0,85.0,82.0,70.2,Lulus
+STU0308,17.0,Laki-laki,Swasta,SMA,Tidak Bekerja,18.0,51.5,Ya,Tidak,Tidak,50.0,52.0,68.0,53.0,49.0,48.0,54.0,Tidak Lulus
+STU0309,15.0,Laki-laki,Swasta,S2,Petani,25.0,80.8,Tidak,Ya,Tidak,108.0,87.0,87.0,66.0,86.0,68.0,78.8,Lulus
+STU0310,18.0,Perempuan,Swasta,S2,PNS,34.0,89.0,Tidak,Ya,Ya,149.0,97.0,100.0,100.0,100.0,100.0,99.4,Lulus
+STU0311,13.0,Laki-laki,Negeri,S1,Tidak Bekerja,1.0,52.7,Tidak,Ya,Tidak,87.0,19.0,39.0,33.0,31.0,19.0,28.2,Tidak Lulus
+STU0312,16.0,Laki-laki,Negeri,SMP,Tidak Bekerja,41.0,65.7,Ya,Ya,Tidak,69.0,89.0,100.0,90.0,98.0,100.0,95.4,Lulus
+STU0313,12.0,Perempuan,Negeri,SMP,PNS,20.0,59.9,Tidak,Ya,Tidak,133.0,55.0,73.0,73.0,59.0,57.0,63.4,Tidak Lulus
+STU0314,16.0,Perempuan,Negeri,SD,Wiraswasta,40.0,71.4,Ya,Ya,Tidak,87.0,100.0,100.0,94.0,76.5,80.0,90.1,Lulus
+STU0315,18.0,Laki-laki,Swasta,SD,Tidak Bekerja,41.0,78.8,Tidak,Ya,Ya,89.0,100.0,100.0,100.0,100.0,96.0,99.2,Lulus
+STU0316,14.0,Perempuan,Swasta,S2,Tidak Bekerja,12.0,50.3,Tidak,Ya,Ya,105.0,66.0,62.0,58.0,53.0,47.0,57.2,Tidak Lulus
+STU0317,15.0,Perempuan,Swasta,SMP,Wiraswasta,40.0,50.1,Tidak,Ya,Tidak,134.0,79.0,81.0,100.0,85.0,87.0,86.4,Lulus
+STU0318,15.0,Perempuan,Swasta,S2,Petani,10.0,90.2,Tidak,Ya,Tidak,29.0,83.0,51.0,64.0,51.0,54.0,60.6,Tidak Lulus
+STU0319,13.0,Perempuan,Swasta,S1,Karyawan Swasta,37.0,98.2,Tidak,Ya,Tidak,10.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0320,14.0,Laki-laki,Swasta,S2,Wiraswasta,24.0,85.2,Ya,Ya,Tidak,90.0,70.0,88.0,89.0,74.0,65.0,77.2,Lulus
+STU0321,16.0,Laki-laki,Swasta,SD,PNS,37.0,84.0,Ya,Tidak,Tidak,121.0,100.0,99.0,67.5,100.0,83.0,89.9,Lulus
+STU0322,13.0,Laki-laki,Swasta,S2,PNS,13.0,49.2,Tidak,Ya,Tidak,79.0,59.0,54.0,56.0,50.0,32.0,50.2,Tidak Lulus
+STU0323,12.0,Perempuan,Negeri,SMA,Karyawan Swasta,11.0,79.1,Tidak,Ya,Tidak,91.0,66.0,77.0,58.0,62.0,48.0,62.2,Tidak Lulus
+STU0324,18.0,Perempuan,Swasta,SD,Tidak Bekerja,16.0,55.8,Tidak,Tidak,Tidak,140.0,54.0,44.0,48.0,50.0,42.0,47.6,Tidak Lulus
+STU0325,13.0,Perempuan,Swasta,SD,Karyawan Swasta,4.0,87.8,Ya,Tidak,Tidak,74.0,32.0,76.0,46.0,46.0,34.0,46.8,Tidak Lulus
+STU0326,14.5,Laki-laki,Swasta,SMP,Petani,20.0,62.8,Ya,Tidak,Ya,12.0,62.0,62.0,64.0,60.0,56.0,60.8,Tidak Lulus
+STU0327,13.0,Perempuan,Negeri,SMP,Karyawan Swasta,15.0,90.6,Ya,Ya,Ya,121.0,78.0,87.0,83.0,84.0,90.0,84.4,Lulus
+STU0328,13.0,Perempuan,Negeri,S1,Buruh,25.0,52.4,Ya,Ya,Tidak,82.0,59.0,73.0,76.0,79.0,70.0,71.4,Lulus
+STU0329,13.0,Perempuan,Swasta,SMP,Petani,14.0,96.5,Ya,Ya,Tidak,19.0,75.0,65.0,84.0,63.0,51.0,67.6,Lulus
+STU0330,14.0,Laki-laki,Negeri,S2,Petani,15.0,91.9,Tidak,Ya,Ya,15.0,85.0,76.0,76.0,79.0,66.0,76.4,Lulus
+STU0331,15.0,Laki-laki,Swasta,S2,Buruh,17.0,84.1,Tidak,Ya,Ya,141.0,80.0,67.0,81.0,95.0,70.0,78.6,Lulus
+STU0332,16.0,Laki-laki,Negeri,SMA,PNS,28.0,81.0,Ya,Ya,Tidak,43.0,90.0,80.0,87.0,76.0,78.0,82.2,Lulus
+STU0333,16.0,Laki-laki,Swasta,SMP,Karyawan Swasta,26.0,71.4,Tidak,Ya,Tidak,123.0,64.0,73.0,73.0,68.0,65.0,68.6,Lulus
+STU0334,12.0,Laki-laki,Negeri,SMP,Tidak Bekerja,39.0,54.4,Tidak,Tidak,Ya,62.0,99.0,100.0,90.0,98.0,85.0,94.4,Lulus
+STU0335,15.0,Perempuan,Negeri,SMA,PNS,36.0,99.0,Tidak,Tidak,Tidak,54.0,100.0,100.0,97.0,93.0,90.0,96.0,Lulus
+STU0336,12.0,Perempuan,Negeri,SMP,Buruh,28.0,70.3,Ya,Ya,Tidak,47.0,92.0,81.0,88.0,71.0,100.0,86.4,Lulus
+STU0337,16.0,Laki-laki,Negeri,SD,Karyawan Swasta,41.0,82.2,Ya,Ya,Tidak,79.0,92.0,100.0,98.0,100.0,91.0,96.2,Lulus
+STU0338,18.0,Perempuan,Swasta,SMP,Wiraswasta,24.0,91.1,Ya,Tidak,Tidak,40.0,71.0,84.0,68.0,73.0,74.0,74.0,Lulus
+STU0339,13.0,Perempuan,Swasta,S1,Buruh,20.0,81.7,Tidak,Ya,Tidak,101.0,89.0,100.0,79.0,95.0,82.0,89.0,Lulus
+STU0340,15.0,Laki-laki,Swasta,SMP,Wiraswasta,2.0,77.7,Ya,Tidak,Ya,106.0,49.0,47.0,53.0,46.0,46.0,48.2,Tidak Lulus
+STU0341,17.0,Perempuan,Negeri,SMP,Petani,6.0,73.5,Tidak,Ya,Ya,111.0,53.0,69.0,71.0,68.0,57.0,63.6,Tidak Lulus
+STU0342,16.0,Perempuan,Swasta,SD,PNS,38.0,65.2,Tidak,Tidak,Tidak,78.0,93.0,92.0,97.0,100.0,95.0,95.4,Lulus
+STU0343,18.0,Perempuan,Negeri,S2,Buruh,25.0,99.2,Tidak,Ya,Tidak,143.0,85.0,87.0,84.0,100.0,97.0,90.6,Lulus
+STU0344,12.0,Perempuan,Swasta,SMP,Petani,40.0,61.5,Ya,Ya,Tidak,120.0,100.0,100.0,95.0,100.0,77.0,94.4,Lulus
+STU0345,18.0,Perempuan,Negeri,S1,PNS,4.0,45.2,Tidak,Ya,Ya,79.0,32.0,35.0,44.0,53.0,19.0,36.6,Tidak Lulus
+STU0346,17.0,Laki-laki,Negeri,SD,Karyawan Swasta,3.0,83.2,Tidak,Tidak,Tidak,52.0,59.0,38.0,44.0,53.0,24.0,43.6,Tidak Lulus
+STU0347,13.0,Laki-laki,Negeri,SD,Buruh,10.0,54.5,Tidak,Ya,Tidak,103.0,54.0,51.0,44.0,65.0,43.0,51.4,Tidak Lulus
+STU0348,18.0,Perempuan,Negeri,S2,PNS,22.0,76.0,Ya,Ya,Ya,60.0,74.0,65.0,52.0,62.0,45.0,59.6,Tidak Lulus
+STU0349,12.0,Perempuan,Negeri,SMP,Karyawan Swasta,27.0,88.8,Ya,Tidak,Tidak,62.0,69.0,71.0,67.0,95.0,77.0,75.8,Lulus
+STU0350,18.0,Perempuan,Swasta,SD,Petani,8.0,53.4,Ya,Ya,Tidak,7.0,51.0,55.0,30.0,36.0,49.0,44.2,Tidak Lulus
+STU0351,13.0,Perempuan,Negeri,S2,Wiraswasta,39.0,67.0,Tidak,Ya,Tidak,66.0,79.0,84.0,82.0,94.0,81.0,84.0,Lulus
+STU0352,17.0,Perempuan,Swasta,SMP,Wiraswasta,1.0,61.7,Tidak,Ya,Tidak,84.0,42.0,48.0,67.5,21.0,17.0,39.1,Tidak Lulus
+STU0353,12.0,Laki-laki,Negeri,SMP,PNS,14.0,74.1,Tidak,Ya,Tidak,18.0,62.0,74.0,71.0,81.0,49.0,67.4,Lulus
+STU0354,16.0,Perempuan,Negeri,SMA,Petani,6.0,98.1,Tidak,Ya,Tidak,56.0,59.0,69.0,32.0,54.0,59.0,54.6,Tidak Lulus
+STU0355,16.0,Laki-laki,Swasta,SD,Karyawan Swasta,18.0,53.1,Ya,Ya,Tidak,62.0,58.0,57.0,38.0,71.0,57.0,56.2,Tidak Lulus
+STU0356,14.0,Perempuan,Negeri,SMA,Wiraswasta,19.0,53.4,Tidak,Tidak,Tidak,44.0,53.0,57.0,61.0,58.0,59.0,57.6,Tidak Lulus
+STU0357,14.0,Perempuan,Swasta,S2,PNS,34.0,88.7,Ya,Ya,Tidak,123.0,88.0,100.0,99.0,100.0,93.0,96.0,Lulus
+STU0358,13.0,Laki-laki,Negeri,SMA,Tidak Bekerja,15.0,51.1,Tidak,Tidak,Ya,141.0,57.0,60.0,71.0,64.0,50.0,60.4,Tidak Lulus
+STU0359,14.0,Laki-laki,Swasta,SD,Buruh,20.0,60.5,Tidak,Ya,Tidak,139.0,92.0,100.0,99.0,100.0,94.0,97.0,Lulus
+STU0360,12.0,Laki-laki,Negeri,S1,PNS,5.0,53.3,Tidak,Tidak,Ya,104.0,48.0,41.0,34.0,40.0,29.0,38.4,Tidak Lulus
+STU0361,17.0,Laki-laki,Negeri,SMA,Wiraswasta,10.0,64.2,Tidak,Ya,Tidak,11.0,51.0,63.0,46.0,63.0,35.0,51.6,Tidak Lulus
+STU0362,18.0,Perempuan,Swasta,S2,Karyawan Swasta,29.0,83.0,Tidak,Ya,Tidak,29.0,84.0,97.0,77.0,72.0,52.0,76.4,Lulus
+STU0363,16.0,Perempuan,Swasta,S2,Tidak Bekerja,6.0,93.0,Tidak,Tidak,Ya,104.0,61.0,61.0,67.5,55.0,88.0,66.5,Lulus
+STU0364,13.0,Laki-laki,Negeri,S2,PNS,1.0,94.5,Tidak,Ya,Ya,10.0,47.0,39.0,40.0,61.0,61.0,49.6,Tidak Lulus
+STU0365,12.0,Perempuan,Negeri,S1,Karyawan Swasta,1.0,47.0,Tidak,Ya,Tidak,116.0,37.0,43.0,28.0,47.0,31.0,37.2,Tidak Lulus
+STU0366,16.0,Laki-laki,Swasta,SD,PNS,26.0,56.9,Tidak,Ya,Tidak,33.0,72.0,76.0,67.5,79.0,91.0,77.1,Lulus
+STU0367,17.0,Perempuan,Swasta,SMP,Wiraswasta,41.0,98.0,Tidak,Ya,Ya,106.0,99.0,100.0,100.0,100.0,100.0,99.8,Lulus
+STU0368,12.0,Perempuan,Negeri,S2,Tidak Bekerja,21.0,52.8,Ya,Tidak,Ya,76.0,69.0,57.0,49.0,68.0,66.0,61.8,Tidak Lulus
+STU0369,18.0,Perempuan,Swasta,SMA,PNS,41.0,51.8,Tidak,Ya,Tidak,18.0,98.0,76.0,100.0,93.0,100.0,93.4,Lulus
+STU0370,17.0,Perempuan,Negeri,SD,Tidak Bekerja,22.0,78.0,Ya,Ya,Tidak,132.0,82.0,77.0,67.0,80.0,70.0,75.2,Lulus
+STU0371,18.0,Perempuan,Swasta,S2,Tidak Bekerja,5.0,51.4,Ya,Ya,Tidak,50.0,53.0,39.0,28.0,22.0,35.0,35.4,Tidak Lulus
+STU0372,13.0,Perempuan,Swasta,S2,Karyawan Swasta,37.0,58.6,Tidak,Ya,Tidak,36.0,97.0,80.0,62.0,97.0,86.0,84.4,Lulus
+STU0373,16.0,Laki-laki,Negeri,SMP,Wiraswasta,39.0,50.2,Ya,Ya,Ya,35.0,77.0,90.0,100.0,85.0,100.0,90.4,Lulus
+STU0374,17.0,Laki-laki,Negeri,SMA,Karyawan Swasta,10.0,61.2,Tidak,Tidak,Ya,106.0,74.0,63.0,37.0,76.5,35.0,57.1,Tidak Lulus
+STU0375,13.0,Perempuan,Swasta,S2,Tidak Bekerja,37.0,68.7,Tidak,Tidak,Tidak,82.0,96.0,93.0,85.0,72.0,81.0,85.4,Lulus
+STU0376,13.0,Perempuan,Negeri,S2,Tidak Bekerja,39.0,76.8,Ya,Ya,Tidak,102.0,100.0,100.0,83.0,96.0,85.0,92.8,Lulus
+STU0377,15.0,Laki-laki,Swasta,SD,Wiraswasta,3.0,60.3,Ya,Ya,Tidak,119.0,49.0,35.0,44.0,55.0,50.0,46.6,Tidak Lulus
+STU0378,16.0,Laki-laki,Negeri,SMP,Petani,27.0,50.0,Ya,Ya,Tidak,147.0,66.0,78.0,65.0,71.0,63.0,68.6,Lulus
+STU0379,14.0,Laki-laki,Negeri,S1,Karyawan Swasta,18.0,51.4,Ya,Tidak,Tidak,134.0,61.0,62.0,45.0,53.0,52.0,54.6,Tidak Lulus
+STU0380,15.0,Laki-laki,Negeri,SMA,Karyawan Swasta,36.0,89.7,Ya,Tidak,Tidak,31.0,74.0,97.0,94.0,96.0,72.0,86.6,Lulus
+STU0381,13.0,Perempuan,Negeri,S1,Wiraswasta,7.0,89.2,Tidak,Ya,Tidak,16.0,45.0,53.0,52.0,50.0,36.0,47.2,Tidak Lulus
+STU0382,17.0,Laki-laki,Negeri,SMP,Petani,24.0,80.8,Ya,Ya,Ya,23.0,74.0,95.0,73.0,79.0,86.0,81.4,Lulus
+STU0383,18.0,Laki-laki,Swasta,SMA,PNS,16.0,94.8,Tidak,Ya,Tidak,82.0,54.0,98.0,67.5,77.0,56.0,70.5,Lulus
+STU0384,13.0,Perempuan,Negeri,S1,Buruh,5.0,46.6,Tidak,Ya,Ya,126.0,29.0,42.0,47.0,48.0,30.0,39.2,Tidak Lulus
+STU0385,15.0,Perempuan,Swasta,S2,Wiraswasta,34.0,79.5,Tidak,Ya,Tidak,118.0,84.0,96.0,75.0,86.0,91.0,86.4,Lulus
+STU0386,18.0,Perempuan,Swasta,SMA,Karyawan Swasta,27.0,54.2,Tidak,Ya,Tidak,129.0,81.0,73.0,82.0,74.0,58.0,73.6,Lulus
+STU0387,15.0,Perempuan,Swasta,S1,Petani,22.0,47.5,Tidak,Ya,Tidak,122.0,70.0,51.0,67.5,40.0,69.0,59.5,Tidak Lulus
+STU0388,16.0,Perempuan,Negeri,SD,Petani,4.0,59.9,Tidak,Ya,Ya,121.0,54.0,73.0,71.0,48.0,28.0,54.8,Tidak Lulus
+STU0389,17.0,Laki-laki,Swasta,S2,Tidak Bekerja,4.0,59.6,Ya,Tidak,Tidak,30.0,25.0,31.0,15.0,46.0,32.0,29.8,Tidak Lulus
+STU0390,13.0,Perempuan,Negeri,SMP,Buruh,24.0,56.6,Ya,Ya,Tidak,101.0,76.0,76.0,77.0,65.0,53.0,69.4,Lulus
+STU0391,14.0,Laki-laki,Negeri,S2,Buruh,25.0,55.7,Tidak,Ya,Ya,144.0,80.0,88.0,60.0,72.0,68.0,73.6,Lulus
+STU0392,12.0,Laki-laki,Swasta,SMP,Karyawan Swasta,41.0,60.4,Ya,Tidak,Tidak,89.0,100.0,97.0,87.0,94.0,69.0,89.4,Lulus
+STU0393,14.0,Perempuan,Swasta,SD,Tidak Bekerja,6.0,57.9,Ya,Ya,Ya,101.0,56.0,63.0,57.0,27.0,41.0,48.8,Tidak Lulus
+STU0394,14.0,Laki-laki,Negeri,S2,Tidak Bekerja,16.0,79.8,Ya,Ya,Ya,45.0,76.0,97.0,71.0,65.0,77.0,77.2,Lulus
+STU0395,13.0,Perempuan,Negeri,S2,Wiraswasta,6.0,87.5,Ya,Tidak,Ya,107.0,71.0,62.0,82.0,70.0,42.0,65.4,Lulus
+STU0396,13.0,Laki-laki,Swasta,S1,Buruh,14.0,87.2,Ya,Ya,Tidak,68.0,73.0,84.0,50.0,69.0,70.0,69.2,Lulus
+STU0397,12.0,Laki-laki,Swasta,SMA,Tidak Bekerja,24.0,79.5,Ya,Ya,Tidak,121.0,82.0,90.0,67.0,76.0,81.0,79.2,Lulus
+STU0398,15.0,Laki-laki,Swasta,S2,PNS,20.0,65.4,Ya,Ya,Tidak,78.0,100.0,99.0,82.0,76.0,87.0,88.8,Lulus
+STU0399,13.0,Laki-laki,Negeri,SMP,Petani,8.0,63.1,Tidak,Tidak,Tidak,87.0,37.0,52.0,40.0,42.0,39.0,42.0,Tidak Lulus
+STU0400,17.0,Perempuan,Swasta,SMP,Buruh,12.0,98.1,Ya,Tidak,Tidak,103.0,61.0,67.0,59.0,66.0,70.0,64.6,Tidak Lulus
+STU0401,16.0,Perempuan,Swasta,S2,PNS,35.0,81.9,Ya,Ya,Ya,143.0,84.0,100.0,80.0,100.0,100.0,92.8,Lulus
+STU0402,14.0,Laki-laki,Negeri,S2,Wiraswasta,25.0,65.9,Tidak,Tidak,Ya,79.0,80.0,75.0,81.0,95.0,84.0,83.0,Lulus
+STU0403,15.0,Perempuan,Swasta,S1,Buruh,4.0,84.2,Tidak,Ya,Tidak,132.0,54.0,65.0,67.5,69.0,55.0,62.1,Tidak Lulus
+STU0404,16.0,Laki-laki,Swasta,SMP,PNS,21.0,59.7,Ya,Ya,Ya,57.0,65.0,66.0,62.0,80.0,69.0,68.4,Lulus
+STU0405,12.0,Laki-laki,Negeri,SMP,PNS,14.0,64.9,Ya,Tidak,Ya,86.0,69.0,60.0,54.0,74.0,68.0,65.0,Lulus
+STU0406,13.0,Perempuan,Swasta,SD,Buruh,8.0,89.1,Ya,Ya,Ya,142.0,53.0,69.0,72.0,50.0,80.0,64.8,Tidak Lulus
+STU0407,12.0,Laki-laki,Negeri,S1,Wiraswasta,39.0,51.3,Ya,Ya,Tidak,95.0,81.0,77.0,100.0,90.0,87.0,87.0,Lulus
+STU0408,15.0,Perempuan,Swasta,SMA,Tidak Bekerja,3.0,94.4,Ya,Ya,Ya,110.0,57.0,69.0,37.0,63.0,66.0,58.4,Tidak Lulus
+STU0409,17.0,Perempuan,Negeri,S1,Petani,6.0,50.1,Tidak,Ya,Ya,46.0,33.0,57.0,45.0,39.0,47.0,44.2,Tidak Lulus
+STU0410,17.0,Laki-laki,Negeri,SMP,Buruh,12.0,68.5,Tidak,Ya,Tidak,32.0,50.0,50.0,46.0,49.0,52.0,49.4,Tidak Lulus
+STU0411,12.0,Laki-laki,Negeri,S1,Tidak Bekerja,19.0,93.6,Tidak,Tidak,Tidak,104.0,50.0,77.0,61.0,86.0,75.0,69.8,Lulus
+STU0412,12.0,Perempuan,Negeri,S2,Buruh,41.0,66.3,Tidak,Ya,Tidak,125.0,96.0,100.0,100.0,96.0,83.0,95.0,Lulus
+STU0413,18.0,Perempuan,Negeri,SD,Wiraswasta,38.0,57.3,Ya,Ya,Tidak,115.0,82.0,99.0,76.0,90.0,82.0,85.8,Lulus
+STU0414,13.0,Perempuan,Negeri,SMP,Buruh,22.0,98.7,Ya,Ya,Tidak,96.0,91.0,92.0,80.0,81.0,75.0,83.8,Lulus
+STU0415,12.0,Laki-laki,Swasta,S1,Buruh,28.0,71.2,Tidak,Ya,Ya,88.0,83.0,95.0,90.0,93.0,88.0,89.8,Lulus
+STU0416,12.0,Laki-laki,Negeri,SMA,Wiraswasta,30.0,88.0,Ya,Tidak,Ya,140.0,73.0,100.0,100.0,100.0,90.0,92.6,Lulus
+STU0417,17.0,Laki-laki,Negeri,S1,Tidak Bekerja,9.0,80.1,Tidak,Ya,Tidak,24.0,62.0,57.0,61.0,66.0,43.0,57.8,Tidak Lulus
+STU0418,14.0,Laki-laki,Swasta,SMA,Tidak Bekerja,37.0,98.6,Tidak,Tidak,Ya,129.0,100.0,100.0,100.0,100.0,87.0,97.4,Lulus
+STU0419,15.0,Laki-laki,Swasta,SD,PNS,11.0,65.7,Tidak,Ya,Ya,26.0,52.0,58.0,58.0,46.0,69.0,56.6,Tidak Lulus
+STU0420,15.0,Perempuan,Negeri,SMP,Petani,2.0,88.1,Tidak,Ya,Tidak,92.0,74.0,49.0,39.0,57.0,70.0,57.8,Tidak Lulus
+STU0421,15.0,Laki-laki,Negeri,S1,Petani,34.0,76.4,Tidak,Tidak,Ya,134.0,100.0,77.0,71.0,100.0,93.0,88.2,Lulus
+STU0422,17.0,Perempuan,Negeri,SMA,Tidak Bekerja,32.0,49.9,Tidak,Ya,Tidak,82.0,74.0,84.0,60.0,95.0,54.0,73.4,Lulus
+STU0423,12.0,Laki-laki,Negeri,S2,Karyawan Swasta,27.0,56.4,Tidak,Ya,Ya,9.0,75.0,90.0,92.0,83.0,57.0,79.4,Lulus
+STU0424,16.0,Perempuan,Swasta,S1,Petani,19.0,80.6,Ya,Tidak,Tidak,74.0,63.0,64.0,45.0,69.0,64.0,61.0,Tidak Lulus
+STU0425,15.0,Laki-laki,Negeri,SMA,Petani,42.0,56.9,Tidak,Ya,Ya,119.0,92.0,100.0,98.0,100.0,90.0,96.0,Lulus
+STU0426,13.0,Perempuan,Negeri,SMA,PNS,10.0,94.1,Ya,Ya,Ya,78.0,83.0,72.0,40.0,63.0,86.0,68.8,Lulus
+STU0427,18.0,Perempuan,Swasta,SMP,Karyawan Swasta,10.0,87.4,Tidak,Tidak,Ya,12.0,49.0,63.0,76.0,70.0,49.0,61.4,Tidak Lulus
+STU0428,16.0,Perempuan,Swasta,S2,Buruh,38.0,46.9,Tidak,Tidak,Tidak,37.0,97.0,84.0,76.0,94.0,100.0,90.2,Lulus
+STU0429,13.0,Perempuan,Swasta,SMP,Wiraswasta,42.0,45.4,Tidak,Ya,Ya,89.0,100.0,100.0,83.0,89.0,100.0,94.4,Lulus
+STU0430,15.0,Laki-laki,Swasta,S1,PNS,16.0,81.8,Tidak,Ya,Tidak,90.0,65.0,78.0,55.0,60.0,56.0,62.8,Tidak Lulus
+STU0431,16.0,Perempuan,Swasta,S2,Tidak Bekerja,2.0,80.7,Ya,Ya,Tidak,129.0,62.0,55.0,38.0,70.0,54.0,55.8,Tidak Lulus
+STU0432,12.0,Laki-laki,Negeri,S1,PNS,37.0,61.7,Tidak,Tidak,Ya,45.0,100.0,71.0,93.0,100.0,57.0,84.2,Lulus
+STU0433,16.0,Perempuan,Swasta,S1,PNS,16.0,97.8,Ya,Tidak,Tidak,143.0,71.0,73.0,89.0,69.0,67.0,73.8,Lulus
+STU0434,17.0,Perempuan,Swasta,SMP,Tidak Bekerja,6.0,68.9,Ya,Tidak,Tidak,76.0,27.0,57.0,32.0,49.0,12.0,35.4,Tidak Lulus
+STU0435,15.0,Perempuan,Negeri,S1,PNS,37.0,80.9,Tidak,Ya,Tidak,45.0,92.0,93.0,88.0,99.0,95.0,93.4,Lulus
+STU0436,17.0,Perempuan,Negeri,SMA,PNS,13.0,80.4,Ya,Ya,Tidak,66.0,78.0,63.0,54.0,76.0,59.0,66.0,Lulus
+STU0437,13.0,Laki-laki,Negeri,SMP,Petani,3.0,92.1,Tidak,Ya,Tidak,134.0,48.0,56.0,39.0,51.0,51.0,49.0,Tidak Lulus
+STU0438,13.0,Laki-laki,Swasta,SMA,Wiraswasta,20.0,54.7,Tidak,Ya,Tidak,108.0,59.0,72.0,67.5,61.0,64.0,64.7,Tidak Lulus
+STU0439,17.0,Perempuan,Negeri,S2,Buruh,20.0,50.3,Tidak,Tidak,Tidak,128.0,65.0,57.0,55.0,69.0,21.0,53.4,Tidak Lulus
+STU0440,17.0,Perempuan,Negeri,S1,PNS,31.0,66.6,Ya,Ya,Ya,21.0,100.0,100.0,73.0,83.0,100.0,91.2,Lulus
+STU0441,12.0,Laki-laki,Swasta,SMP,PNS,4.0,58.7,Tidak,Ya,Tidak,8.0,29.0,47.0,35.0,47.0,50.0,41.6,Tidak Lulus
+STU0442,17.0,Laki-laki,Negeri,SMA,Buruh,14.0,91.0,Ya,Ya,Ya,56.0,75.0,85.0,67.0,74.0,70.0,74.2,Lulus
+STU0443,17.0,Laki-laki,Swasta,SMP,Petani,19.0,65.9,Ya,Ya,Ya,34.0,82.0,81.0,70.0,84.0,79.0,79.2,Lulus
+STU0444,18.0,Laki-laki,Negeri,SD,Wiraswasta,34.0,49.8,Tidak,Ya,Tidak,103.0,78.0,85.0,88.0,76.5,85.0,82.5,Lulus
+STU0445,14.0,Perempuan,Swasta,SD,Karyawan Swasta,12.0,46.4,Ya,Tidak,Ya,121.0,63.0,50.0,43.0,57.0,33.0,49.2,Tidak Lulus
+STU0446,18.0,Perempuan,Swasta,S1,PNS,20.0,78.7,Tidak,Ya,Tidak,82.0,61.0,71.0,63.0,73.0,58.0,65.2,Lulus
+STU0447,16.0,Perempuan,Negeri,SMA,Karyawan Swasta,36.0,84.9,Tidak,Ya,Tidak,33.0,95.0,93.0,95.0,100.0,100.0,96.6,Lulus
+STU0448,16.0,Laki-laki,Swasta,SD,Tidak Bekerja,20.0,72.2,Ya,Ya,Tidak,115.0,81.0,88.0,69.0,87.0,73.0,79.6,Lulus
+STU0449,17.0,Laki-laki,Negeri,SMP,Tidak Bekerja,21.0,69.7,Tidak,Ya,Ya,110.0,91.0,79.0,79.0,83.0,62.0,78.8,Lulus
+STU0450,14.0,Perempuan,Swasta,SMP,PNS,20.0,65.7,Tidak,Ya,Tidak,62.0,86.0,97.0,78.0,95.0,71.0,85.4,Lulus
+STU0451,14.0,Perempuan,Negeri,S1,Petani,10.0,73.4,Ya,Tidak,Ya,105.0,65.0,59.0,63.0,76.5,43.0,61.3,Tidak Lulus
+STU0452,15.0,Laki-laki,Negeri,SD,PNS,35.0,63.1,Tidak,Ya,Tidak,122.0,91.0,83.0,70.0,99.0,73.0,83.2,Lulus
+STU0453,13.0,Laki-laki,Swasta,SMP,Wiraswasta,28.0,96.9,Ya,Tidak,Tidak,85.0,91.0,76.0,97.0,91.0,80.0,87.0,Lulus
+STU0454,13.0,Perempuan,Swasta,SMP,PNS,10.0,54.6,Ya,Ya,Tidak,82.0,41.0,42.0,27.0,69.0,25.0,40.8,Tidak Lulus
+STU0455,15.0,Perempuan,Negeri,SMA,Wiraswasta,5.0,88.4,Tidak,Ya,Tidak,14.0,45.0,42.0,41.0,42.0,62.0,46.4,Tidak Lulus
+STU0456,15.0,Laki-laki,Negeri,SMP,Petani,19.0,66.4,Tidak,Ya,Tidak,23.0,83.0,77.0,58.0,66.0,60.0,68.8,Lulus
+STU0457,17.0,Laki-laki,Swasta,S1,PNS,23.0,96.0,Tidak,Ya,Tidak,82.0,78.0,100.0,75.0,91.0,86.0,86.0,Lulus
+STU0458,18.0,Perempuan,Swasta,S2,Karyawan Swasta,3.0,81.5,Tidak,Ya,Tidak,23.0,49.0,59.0,67.5,40.0,39.0,50.9,Tidak Lulus
+STU0459,17.0,Laki-laki,Swasta,SMA,PNS,21.0,51.1,Tidak,Ya,Tidak,91.0,56.0,78.0,65.0,53.0,53.0,61.0,Tidak Lulus
+STU0460,18.0,Perempuan,Negeri,SMP,Karyawan Swasta,25.0,84.0,Tidak,Tidak,Tidak,20.0,64.0,73.0,72.0,76.5,63.0,69.7,Lulus
+STU0461,14.0,Laki-laki,Negeri,S2,Wiraswasta,23.0,84.6,Ya,Ya,Tidak,99.0,75.0,78.0,71.0,61.0,59.0,68.8,Lulus
+STU0462,12.0,Laki-laki,Swasta,SMP,Karyawan Swasta,19.0,67.1,Tidak,Ya,Ya,87.0,70.0,79.0,61.0,70.0,67.0,69.4,Lulus
+STU0463,15.0,Laki-laki,Swasta,SMP,Tidak Bekerja,11.0,81.1,Ya,Ya,Tidak,74.0,49.0,58.0,47.0,61.0,45.0,52.0,Tidak Lulus
+STU0464,16.0,Perempuan,Negeri,SMP,PNS,40.0,84.0,Tidak,Tidak,Ya,102.0,100.0,100.0,100.0,100.0,91.0,98.2,Lulus
+STU0465,15.0,Laki-laki,Swasta,S1,PNS,13.0,53.0,Ya,Tidak,Tidak,123.0,49.0,39.0,61.0,53.0,41.0,48.6,Tidak Lulus
+STU0466,17.0,Perempuan,Negeri,SMA,Buruh,31.0,55.8,Ya,Tidak,Ya,56.0,64.0,80.0,80.0,73.0,71.0,73.6,Lulus
+STU0467,13.0,Perempuan,Swasta,S2,Wiraswasta,12.0,95.2,Tidak,Tidak,Ya,21.0,75.0,61.0,52.0,82.0,55.0,65.0,Lulus
+STU0468,14.0,Perempuan,Swasta,SMP,Petani,20.0,79.3,Ya,Tidak,Tidak,82.0,82.0,93.0,67.5,84.0,68.0,78.9,Lulus
+STU0469,15.0,Laki-laki,Negeri,SD,Buruh,15.0,97.0,Tidak,Ya,Tidak,128.0,83.0,100.0,85.0,100.0,69.0,87.4,Lulus
+STU0470,12.0,Laki-laki,Swasta,SMA,PNS,18.0,48.8,Ya,Tidak,Ya,108.0,58.0,59.0,50.0,86.0,69.0,64.4,Tidak Lulus
+STU0471,15.0,Laki-laki,Swasta,SMA,Karyawan Swasta,28.0,94.9,Tidak,Tidak,Tidak,122.0,100.0,100.0,75.0,93.0,72.0,88.0,Lulus
+STU0472,14.5,Laki-laki,Swasta,S1,PNS,35.0,83.3,Tidak,Tidak,Tidak,89.0,65.0,100.0,83.0,97.0,98.0,88.6,Lulus
+STU0473,17.0,Laki-laki,Negeri,S2,Tidak Bekerja,9.0,83.5,Tidak,Ya,Tidak,79.0,66.0,67.0,48.0,63.0,31.0,55.0,Tidak Lulus
+STU0474,15.0,Laki-laki,Negeri,SMA,Petani,14.0,47.8,Tidak,Ya,Tidak,86.0,49.0,65.0,41.0,55.0,14.0,44.8,Tidak Lulus
+STU0475,12.0,Laki-laki,Negeri,SD,Petani,35.0,86.4,Ya,Ya,Tidak,34.0,100.0,100.0,80.0,86.0,98.0,92.8,Lulus
+STU0476,17.0,Laki-laki,Swasta,SMP,Tidak Bekerja,23.0,82.3,Tidak,Ya,Tidak,13.0,81.0,83.0,88.0,69.0,74.0,79.0,Lulus
+STU0477,12.0,Laki-laki,Negeri,SMA,Wiraswasta,40.0,89.2,Ya,Ya,Tidak,48.0,100.0,100.0,100.0,100.0,89.0,97.8,Lulus
+STU0478,18.0,Perempuan,Negeri,S1,Karyawan Swasta,29.0,70.7,Ya,Tidak,Tidak,51.0,81.0,84.0,87.0,77.0,54.0,76.6,Lulus
+STU0479,17.0,Laki-laki,Negeri,SMA,Wiraswasta,15.0,54.9,Tidak,Tidak,Ya,80.0,63.0,64.0,40.0,63.0,50.0,56.0,Tidak Lulus
+STU0480,12.0,Laki-laki,Swasta,S2,PNS,33.0,87.5,Tidak,Tidak,Tidak,41.0,71.0,94.0,82.0,83.0,71.0,80.2,Lulus
+STU0481,15.0,Laki-laki,Swasta,SD,Tidak Bekerja,28.0,60.4,Ya,Ya,Tidak,107.0,71.0,80.0,78.0,79.0,71.0,75.8,Lulus
+STU0482,13.0,Laki-laki,Swasta,SD,Karyawan Swasta,6.0,84.9,Tidak,Ya,Ya,120.0,51.0,61.0,60.0,70.0,58.0,60.0,Tidak Lulus
+STU0483,12.0,Perempuan,Swasta,SD,Tidak Bekerja,37.0,78.9,Tidak,Ya,Tidak,117.0,88.0,87.0,95.0,100.0,100.0,94.0,Lulus
+STU0484,17.0,Laki-laki,Negeri,SMA,Karyawan Swasta,38.0,51.8,Tidak,Ya,Tidak,33.0,100.0,77.0,78.0,93.0,77.0,85.0,Lulus
+STU0485,13.0,Perempuan,Swasta,SMA,Tidak Bekerja,1.0,87.1,Tidak,Ya,Tidak,12.0,42.0,47.0,46.0,43.0,43.0,44.2,Tidak Lulus
+STU0486,18.0,Perempuan,Swasta,SMA,Tidak Bekerja,4.0,60.9,Ya,Ya,Tidak,106.0,56.0,46.0,67.5,39.0,60.0,53.7,Tidak Lulus
+STU0487,14.0,Laki-laki,Negeri,SMP,Buruh,13.0,74.7,Ya,Ya,Ya,33.0,73.0,62.0,62.0,77.0,55.0,65.8,Lulus
+STU0488,14.0,Laki-laki,Swasta,SMP,PNS,25.0,85.3,Tidak,Ya,Tidak,21.0,75.0,88.0,82.0,84.0,89.0,83.6,Lulus
+STU0489,13.0,Perempuan,Negeri,SMA,Petani,33.0,67.7,Ya,Ya,Tidak,109.0,100.0,98.0,78.0,90.0,70.0,87.2,Lulus
+STU0490,12.0,Laki-laki,Swasta,SMP,Wiraswasta,12.0,47.3,Ya,Ya,Tidak,142.0,46.0,66.0,54.0,34.0,48.0,49.6,Tidak Lulus
+STU0491,12.0,Perempuan,Negeri,S2,Petani,7.0,45.3,Ya,Ya,Ya,28.0,48.0,52.0,42.0,60.0,51.0,50.6,Tidak Lulus
+STU0492,14.0,Perempuan,Swasta,SMA,Karyawan Swasta,35.0,56.6,Ya,Ya,Tidak,78.0,93.0,76.0,79.0,84.0,63.0,79.0,Lulus
+STU0493,16.0,Perempuan,Negeri,SMA,PNS,3.0,97.6,Ya,Tidak,Tidak,21.0,54.0,47.0,48.0,57.0,38.0,48.8,Tidak Lulus
+STU0494,15.0,Laki-laki,Swasta,SD,Tidak Bekerja,20.0,90.3,Ya,Ya,Tidak,79.0,71.0,89.0,80.0,85.0,75.0,80.0,Lulus
+STU0495,13.0,Perempuan,Negeri,SMP,Tidak Bekerja,27.0,52.7,Ya,Ya,Tidak,147.0,77.0,74.0,72.0,82.0,58.0,72.6,Lulus
+STU0496,16.0,Perempuan,Negeri,S1,Karyawan Swasta,28.0,46.0,Tidak,Ya,Ya,110.0,73.0,93.0,74.0,69.0,70.0,75.8,Lulus
+STU0497,15.0,Laki-laki,Negeri,SMA,Wiraswasta,6.0,94.7,Ya,Tidak,Ya,79.0,63.0,58.0,56.0,54.0,69.0,60.0,Tidak Lulus
+STU0498,14.0,Perempuan,Swasta,SD,Karyawan Swasta,34.0,81.8,Tidak,Ya,Tidak,99.0,100.0,90.0,67.5,96.0,91.0,88.9,Lulus
+STU0499,18.0,Laki-laki,Swasta,SD,PNS,35.0,65.6,Ya,Ya,Tidak,136.0,66.0,100.0,98.0,100.0,85.0,89.8,Lulus
+STU0500,12.0,Laki-laki,Swasta,SD,Wiraswasta,28.0,96.4,Ya,Tidak,Ya,63.0,95.0,86.0,84.0,88.0,88.0,88.2,Lulus
+STU0501,14.0,Laki-laki,Negeri,S1,Karyawan Swasta,22.0,71.4,Tidak,Tidak,Tidak,94.0,72.0,86.0,69.0,86.0,70.0,76.6,Lulus
+STU0502,13.0,Laki-laki,Negeri,SD,PNS,9.0,93.6,Ya,Tidak,Tidak,87.0,73.0,60.0,49.0,57.0,44.0,56.6,Tidak Lulus
+STU0503,12.0,Perempuan,Swasta,SD,PNS,41.0,72.2,Tidak,Ya,Tidak,96.0,90.0,99.0,78.0,100.0,78.0,89.0,Lulus
+STU0504,15.0,Perempuan,Negeri,SMP,Petani,39.0,49.3,Ya,Ya,Ya,31.0,85.0,100.0,91.0,98.0,70.0,88.8,Lulus
+STU0505,12.0,Perempuan,Swasta,SD,Tidak Bekerja,36.0,75.8,Ya,Tidak,Tidak,74.0,95.0,87.0,97.0,81.0,77.0,87.4,Lulus
+STU0506,13.0,Perempuan,Negeri,SMP,Karyawan Swasta,16.0,84.6,Ya,Tidak,Tidak,133.0,72.0,69.0,49.0,62.0,50.0,60.4,Tidak Lulus
+STU0507,12.0,Laki-laki,Swasta,SMP,Petani,37.0,76.7,Tidak,Ya,Ya,87.0,90.0,100.0,100.0,100.0,93.0,96.6,Lulus
+STU0508,15.0,Perempuan,Negeri,SMP,Buruh,2.0,84.0,Tidak,Tidak,Tidak,39.0,44.0,45.0,71.0,47.0,32.0,47.8,Tidak Lulus
+STU0509,12.0,Laki-laki,Swasta,SD,Petani,35.0,59.3,Tidak,Tidak,Ya,63.0,77.0,92.0,91.0,86.0,91.0,87.4,Lulus
+STU0510,16.0,Perempuan,Swasta,S2,Tidak Bekerja,11.0,85.7,Ya,Ya,Ya,14.0,70.0,67.0,49.0,71.0,74.0,66.2,Lulus
+STU0511,12.0,Laki-laki,Swasta,S2,Wiraswasta,35.0,46.9,Tidak,Ya,Tidak,114.0,78.0,82.0,65.0,83.0,69.0,75.4,Lulus
+STU0512,17.0,Laki-laki,Swasta,S2,Tidak Bekerja,8.0,88.7,Ya,Tidak,Tidak,37.0,60.0,45.0,44.0,59.0,69.0,55.4,Tidak Lulus
+STU0513,15.0,Perempuan,Negeri,S2,Karyawan Swasta,5.0,71.4,Ya,Ya,Ya,92.0,61.0,73.0,67.0,58.0,51.0,62.0,Tidak Lulus
+STU0514,13.0,Perempuan,Negeri,S2,PNS,12.0,87.2,Tidak,Ya,Ya,126.0,76.0,80.0,71.0,76.5,56.0,71.9,Lulus
+STU0515,15.0,Perempuan,Negeri,S1,Petani,22.0,48.4,Tidak,Ya,Ya,56.0,54.0,44.0,43.0,76.5,29.0,49.3,Tidak Lulus
+STU0516,13.0,Perempuan,Swasta,S2,Petani,32.0,54.6,Ya,Ya,Tidak,35.0,85.0,82.0,85.0,78.0,61.0,78.2,Lulus
+STU0517,14.0,Perempuan,Negeri,SMA,Buruh,8.0,75.8,Tidak,Ya,Tidak,95.0,53.0,59.0,56.0,43.0,39.0,50.0,Tidak Lulus
+STU0518,12.0,Laki-laki,Swasta,S2,Tidak Bekerja,25.0,73.4,Tidak,Ya,Ya,51.0,80.0,96.0,93.0,94.0,88.0,90.2,Lulus
+STU0519,15.0,Laki-laki,Negeri,S1,PNS,5.0,67.2,Tidak,Ya,Ya,139.0,66.0,60.0,43.0,65.0,31.0,53.0,Tidak Lulus
+STU0520,17.0,Laki-laki,Swasta,S2,Petani,1.0,50.2,Ya,Ya,Tidak,104.0,30.0,39.0,30.0,35.0,1.0,27.0,Tidak Lulus
+STU0521,16.0,Perempuan,Negeri,SD,PNS,22.0,97.7,Tidak,Ya,Ya,40.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0522,17.0,Perempuan,Negeri,SMA,Wiraswasta,23.0,65.0,Tidak,Ya,Tidak,66.0,64.0,76.0,72.0,69.0,66.0,69.4,Lulus
+STU0523,14.0,Perempuan,Negeri,SMA,Buruh,5.0,62.2,Ya,Ya,Tidak,124.0,39.0,40.0,53.0,53.0,53.0,47.6,Tidak Lulus
+STU0524,18.0,Laki-laki,Negeri,S2,Buruh,31.0,86.1,Ya,Tidak,Ya,31.0,91.0,100.0,89.0,87.0,83.0,90.0,Lulus
+STU0525,16.0,Perempuan,Negeri,S2,PNS,42.0,76.5,Tidak,Ya,Tidak,5.0,92.0,100.0,91.0,100.0,100.0,96.6,Lulus
+STU0526,18.0,Laki-laki,Swasta,SD,Wiraswasta,3.0,73.5,Ya,Tidak,Tidak,93.0,45.0,40.0,28.0,38.0,52.0,40.6,Tidak Lulus
+STU0527,18.0,Laki-laki,Negeri,SMP,PNS,11.0,48.1,Ya,Ya,Tidak,138.0,29.0,59.0,60.0,43.0,14.0,41.0,Tidak Lulus
+STU0528,15.0,Laki-laki,Swasta,SMA,PNS,14.0,57.1,Tidak,Tidak,Tidak,42.0,50.0,68.0,39.0,63.0,44.0,52.8,Tidak Lulus
+STU0529,18.0,Laki-laki,Swasta,SMA,Karyawan Swasta,1.0,90.5,Ya,Ya,Tidak,8.0,66.0,59.0,38.0,38.0,69.0,54.0,Tidak Lulus
+STU0530,15.0,Perempuan,Negeri,SD,PNS,37.0,55.2,Ya,Ya,Tidak,143.0,94.0,98.0,79.0,96.0,56.0,84.6,Lulus
+STU0531,13.0,Laki-laki,Negeri,S2,PNS,26.0,67.3,Tidak,Tidak,Ya,140.0,82.0,87.0,71.0,83.0,100.0,84.6,Lulus
+STU0532,12.0,Perempuan,Swasta,SMP,PNS,35.0,59.8,Ya,Ya,Tidak,47.0,100.0,99.0,79.0,89.0,88.0,91.0,Lulus
+STU0533,18.0,Perempuan,Negeri,SD,Wiraswasta,33.0,46.2,Tidak,Ya,Tidak,129.0,78.0,71.0,72.0,74.0,78.0,74.6,Lulus
+STU0534,18.0,Laki-laki,Negeri,S2,Wiraswasta,37.0,58.6,Tidak,Ya,Ya,13.0,89.0,100.0,71.0,95.0,97.0,90.4,Lulus
+STU0535,12.0,Laki-laki,Negeri,SMA,Buruh,19.0,56.4,Tidak,Ya,Tidak,31.0,46.0,66.0,53.0,63.0,61.0,57.8,Tidak Lulus
+STU0536,16.0,Perempuan,Negeri,SMP,Karyawan Swasta,25.0,83.4,Ya,Ya,Ya,23.0,86.0,100.0,79.0,91.0,76.0,86.4,Lulus
+STU0537,17.0,Perempuan,Swasta,SMA,PNS,1.0,76.5,Ya,Tidak,Tidak,54.0,41.0,50.0,42.0,35.0,40.0,41.6,Tidak Lulus
+STU0538,14.0,Perempuan,Swasta,SMA,PNS,32.0,73.4,Tidak,Ya,Tidak,102.0,100.0,75.0,77.0,83.0,93.0,85.6,Lulus
+STU0539,13.0,Laki-laki,Negeri,SD,Petani,29.0,55.4,Ya,Tidak,Tidak,95.0,81.0,84.0,71.0,81.0,76.0,78.6,Lulus
+STU0540,15.0,Perempuan,Swasta,SMA,Petani,18.0,70.9,Ya,Ya,Tidak,86.0,73.0,54.0,67.0,88.0,45.0,65.4,Lulus
+STU0541,13.0,Perempuan,Swasta,S1,Buruh,5.0,59.0,Ya,Ya,Ya,33.0,45.0,55.0,54.0,39.0,30.0,44.6,Tidak Lulus
+STU0542,16.0,Perempuan,Swasta,S2,PNS,17.0,72.2,Ya,Ya,Tidak,35.0,76.0,76.0,67.5,83.0,54.0,71.3,Lulus
+STU0543,15.0,Laki-laki,Swasta,SMP,Petani,24.0,85.5,Ya,Ya,Ya,78.0,97.0,100.0,91.0,78.0,93.0,91.8,Lulus
+STU0544,15.0,Perempuan,Negeri,SMA,Petani,7.0,47.3,Tidak,Ya,Tidak,136.0,34.0,55.0,48.0,37.0,32.0,41.2,Tidak Lulus
+STU0545,18.0,Perempuan,Swasta,SMP,Karyawan Swasta,27.0,74.0,Tidak,Tidak,Ya,84.0,72.0,76.0,72.0,83.0,71.0,74.8,Lulus
+STU0546,18.0,Laki-laki,Negeri,S1,Petani,12.0,63.4,Ya,Ya,Ya,40.0,65.0,59.0,64.0,69.0,61.0,63.6,Tidak Lulus
+STU0547,16.0,Laki-laki,Negeri,SD,Tidak Bekerja,14.0,89.9,Tidak,Ya,Ya,149.0,72.0,64.0,53.0,77.0,100.0,73.2,Lulus
+STU0548,15.0,Laki-laki,Negeri,SMP,PNS,9.0,79.2,Ya,Ya,Ya,116.0,53.0,73.0,70.0,59.0,59.0,62.8,Tidak Lulus
+STU0549,17.0,Laki-laki,Swasta,S2,PNS,29.0,62.3,Tidak,Tidak,Tidak,88.0,74.0,82.0,69.0,89.0,64.0,75.6,Lulus
+STU0550,16.0,Laki-laki,Negeri,SMP,Petani,36.0,83.3,Ya,Ya,Ya,126.0,97.0,100.0,95.0,100.0,100.0,98.4,Lulus
+STU0551,16.0,Laki-laki,Negeri,S1,Wiraswasta,8.0,81.8,Ya,Ya,Ya,88.0,68.0,63.0,69.0,77.0,77.0,70.8,Lulus
+STU0552,12.0,Laki-laki,Negeri,S1,Petani,8.0,65.0,Tidak,Tidak,Ya,93.0,41.0,53.0,45.0,67.0,36.0,48.4,Tidak Lulus
+STU0553,18.0,Perempuan,Swasta,SMP,Tidak Bekerja,33.0,97.7,Ya,Tidak,Tidak,116.0,100.0,86.0,89.0,100.0,86.0,92.2,Lulus
+STU0554,13.0,Perempuan,Swasta,S2,Buruh,11.0,72.2,Ya,Tidak,Tidak,56.0,45.0,54.0,63.0,43.0,27.0,46.4,Tidak Lulus
+STU0555,14.0,Laki-laki,Negeri,S2,Wiraswasta,31.0,91.6,Ya,Ya,Tidak,19.0,94.0,100.0,100.0,100.0,100.0,98.8,Lulus
+STU0556,17.0,Perempuan,Negeri,SD,Tidak Bekerja,13.0,70.0,Tidak,Ya,Tidak,53.0,52.0,61.0,59.0,48.0,34.0,50.8,Tidak Lulus
+STU0557,17.0,Laki-laki,Swasta,SD,PNS,35.0,86.9,Tidak,Tidak,Ya,56.0,100.0,100.0,100.0,88.0,95.0,96.6,Lulus
+STU0558,18.0,Laki-laki,Swasta,S2,Buruh,27.0,80.5,Ya,Ya,Tidak,68.0,88.0,90.0,89.0,80.0,74.0,84.2,Lulus
+STU0559,16.0,Laki-laki,Negeri,S2,Buruh,37.0,63.8,Ya,Tidak,Tidak,52.0,93.0,83.0,74.0,89.0,92.0,86.2,Lulus
+STU0560,14.0,Laki-laki,Swasta,S1,Wiraswasta,6.0,86.5,Tidak,Ya,Tidak,24.0,44.0,57.0,39.0,52.0,39.0,46.2,Tidak Lulus
+STU0561,14.0,Perempuan,Swasta,SMP,Buruh,33.0,53.7,Ya,Ya,Tidak,78.0,86.0,100.0,74.0,75.0,96.0,86.2,Lulus
+STU0562,15.0,Laki-laki,Swasta,SMP,Tidak Bekerja,1.0,86.2,Ya,Ya,Tidak,32.0,43.0,55.0,46.0,38.0,48.0,46.0,Tidak Lulus
+STU0563,16.0,Laki-laki,Swasta,S2,Karyawan Swasta,41.0,66.7,Ya,Ya,Ya,18.0,92.0,100.0,94.0,100.0,100.0,97.2,Lulus
+STU0564,18.0,Laki-laki,Swasta,S2,Wiraswasta,31.0,62.0,Tidak,Ya,Tidak,7.0,70.0,73.0,67.5,89.0,57.0,71.3,Lulus
+STU0565,15.0,Laki-laki,Negeri,SMP,Karyawan Swasta,26.0,77.0,Tidak,Ya,Tidak,65.0,96.0,79.0,71.0,85.0,89.0,84.0,Lulus
+STU0566,16.0,Perempuan,Swasta,S2,PNS,9.0,72.1,Ya,Tidak,Tidak,25.0,45.0,62.0,57.0,61.0,30.0,51.0,Tidak Lulus
+STU0567,15.0,Laki-laki,Swasta,SMA,PNS,16.0,72.2,Tidak,Ya,Tidak,35.0,70.0,71.0,64.0,62.0,91.0,71.6,Lulus
+STU0568,16.0,Laki-laki,Swasta,SMA,Wiraswasta,29.0,68.1,Ya,Ya,Ya,24.0,100.0,100.0,94.0,90.0,81.0,93.0,Lulus
+STU0569,17.0,Perempuan,Swasta,S1,Petani,16.0,65.2,Tidak,Ya,Ya,121.0,60.0,73.0,71.0,67.0,79.0,70.0,Lulus
+STU0570,12.0,Laki-laki,Swasta,SD,Buruh,28.0,94.9,Tidak,Ya,Tidak,16.0,100.0,88.0,100.0,95.0,74.0,91.4,Lulus
+STU0571,12.0,Laki-laki,Swasta,SD,Buruh,40.0,60.4,Ya,Ya,Tidak,118.0,90.0,100.0,98.0,84.0,88.0,92.0,Lulus
+STU0572,14.0,Perempuan,Swasta,S2,Wiraswasta,23.0,96.2,Tidak,Tidak,Tidak,123.0,93.0,81.0,94.0,76.0,80.0,84.8,Lulus
+STU0573,13.0,Perempuan,Negeri,S1,PNS,22.0,56.3,Ya,Ya,Ya,40.0,74.0,83.0,71.0,71.0,96.0,79.0,Lulus
+STU0574,16.0,Laki-laki,Negeri,S1,Tidak Bekerja,29.0,92.2,Tidak,Tidak,Tidak,52.0,80.0,87.0,83.0,87.0,73.0,82.0,Lulus
+STU0575,14.0,Perempuan,Negeri,SD,Buruh,2.0,69.9,Tidak,Ya,Tidak,51.0,39.0,45.0,19.0,46.0,32.0,36.2,Tidak Lulus
+STU0576,17.0,Laki-laki,Swasta,SD,Petani,15.0,45.1,Ya,Ya,Tidak,78.0,42.0,49.0,40.0,47.0,69.0,49.4,Tidak Lulus
+STU0577,13.0,Perempuan,Swasta,SMA,Tidak Bekerja,4.0,76.3,Ya,Ya,Tidak,104.0,47.0,40.0,50.0,40.0,44.0,44.2,Tidak Lulus
+STU0578,14.5,Perempuan,Swasta,S2,Tidak Bekerja,20.0,73.0,Ya,Tidak,Ya,71.0,95.0,76.0,73.0,86.0,79.0,81.8,Lulus
+STU0579,16.0,Perempuan,Negeri,S1,Buruh,17.0,62.5,Tidak,Tidak,Tidak,64.0,53.0,52.0,52.0,62.0,51.0,54.0,Tidak Lulus
+STU0580,13.0,Perempuan,Negeri,SMA,PNS,4.0,90.2,Ya,Tidak,Tidak,30.0,54.0,51.0,48.0,76.5,30.0,51.9,Tidak Lulus
+STU0581,14.0,Perempuan,Negeri,SMP,PNS,15.0,97.6,Ya,Ya,Tidak,79.0,74.0,71.0,62.0,58.0,69.0,66.8,Lulus
+STU0582,14.0,Perempuan,Swasta,S1,Wiraswasta,33.0,82.2,Tidak,Ya,Tidak,79.0,100.0,100.0,100.0,97.0,74.0,94.2,Lulus
+STU0583,17.0,Perempuan,Swasta,SD,Karyawan Swasta,37.0,64.3,Tidak,Ya,Tidak,54.0,87.0,90.0,79.0,100.0,69.0,85.0,Lulus
+STU0584,16.0,Laki-laki,Negeri,S1,PNS,38.0,98.4,Ya,Ya,Tidak,145.0,100.0,96.0,89.0,100.0,100.0,97.0,Lulus
+STU0585,18.0,Laki-laki,Negeri,S2,Tidak Bekerja,38.0,59.7,Tidak,Ya,Tidak,136.0,78.0,97.0,86.0,87.0,80.0,85.6,Lulus
+STU0586,15.0,Perempuan,Negeri,S2,Karyawan Swasta,36.0,51.0,Tidak,Tidak,Tidak,69.0,74.0,88.0,71.0,71.0,82.0,77.2,Lulus
+STU0587,16.0,Perempuan,Negeri,SD,Petani,11.0,71.4,Ya,Ya,Tidak,132.0,74.0,77.0,49.0,61.0,32.0,58.6,Tidak Lulus
+STU0588,15.0,Perempuan,Negeri,SMP,Wiraswasta,4.0,73.8,Ya,Ya,Tidak,148.0,51.0,34.0,42.0,56.0,49.0,46.4,Tidak Lulus
+STU0589,12.0,Laki-laki,Negeri,S1,PNS,6.0,65.6,Tidak,Tidak,Tidak,20.0,29.0,48.0,42.0,40.0,27.0,37.2,Tidak Lulus
+STU0590,15.0,Laki-laki,Negeri,SD,Petani,18.0,73.8,Ya,Tidak,Tidak,98.0,38.0,65.0,65.0,56.0,45.0,53.8,Tidak Lulus
+STU0591,12.0,Perempuan,Negeri,S1,Petani,38.0,71.8,Tidak,Ya,Ya,48.0,86.0,100.0,100.0,100.0,100.0,97.2,Lulus
+STU0592,13.0,Perempuan,Negeri,SD,Buruh,38.0,72.7,Ya,Tidak,Tidak,72.0,100.0,100.0,95.0,100.0,98.0,98.6,Lulus
+STU0593,16.0,Perempuan,Swasta,SMP,Wiraswasta,11.0,95.4,Ya,Ya,Tidak,124.0,58.0,53.0,59.0,59.0,55.0,56.8,Tidak Lulus
+STU0594,18.0,Laki-laki,Swasta,SMA,Wiraswasta,3.0,49.5,Ya,Tidak,Tidak,100.0,58.0,32.0,32.0,19.0,0.0,28.2,Tidak Lulus
+STU0595,12.0,Perempuan,Negeri,SD,Karyawan Swasta,19.0,48.5,Tidak,Ya,Tidak,21.0,50.0,60.0,41.0,60.0,75.0,57.2,Tidak Lulus
+STU0596,12.0,Laki-laki,Swasta,SMP,Tidak Bekerja,24.0,52.8,Ya,Tidak,Tidak,123.0,61.0,74.0,54.0,76.0,53.0,63.6,Tidak Lulus
+STU0597,14.0,Laki-laki,Negeri,SD,Petani,40.0,76.1,Tidak,Ya,Tidak,113.0,100.0,100.0,95.0,100.0,100.0,99.0,Lulus
+STU0598,15.0,Perempuan,Swasta,SMA,Wiraswasta,20.0,46.1,Ya,Ya,Ya,123.0,96.0,100.0,95.0,80.0,97.0,93.6,Lulus
+STU0599,17.0,Perempuan,Negeri,S2,Tidak Bekerja,28.0,91.9,Ya,Ya,Tidak,64.0,87.0,94.0,71.0,85.0,80.0,83.4,Lulus
+STU0600,15.0,Perempuan,Negeri,SD,Tidak Bekerja,34.0,59.4,Ya,Ya,Tidak,131.0,93.0,98.0,73.0,85.0,70.0,83.8,Lulus
+STU0601,16.0,Perempuan,Swasta,SMP,Wiraswasta,41.0,48.6,Ya,Tidak,Tidak,7.0,98.0,90.0,67.5,82.0,69.0,81.3,Lulus
+STU0602,14.0,Perempuan,Negeri,SD,Wiraswasta,9.0,64.3,Tidak,Ya,Tidak,146.0,51.0,77.0,41.0,37.0,53.0,51.8,Tidak Lulus
+STU0603,16.0,Perempuan,Swasta,S1,Wiraswasta,23.0,68.0,Tidak,Ya,Ya,56.0,75.0,68.0,69.0,88.0,54.0,70.8,Lulus
+STU0604,12.0,Perempuan,Swasta,SMP,Petani,14.0,77.2,Ya,Ya,Ya,149.0,67.0,89.0,76.0,72.0,79.0,76.6,Lulus
+STU0605,17.0,Laki-laki,Negeri,SMP,Wiraswasta,21.0,96.9,Ya,Ya,Tidak,69.0,83.0,89.0,80.0,84.0,79.0,83.0,Lulus
+STU0606,15.0,Laki-laki,Negeri,SMP,Wiraswasta,23.0,59.2,Tidak,Ya,Tidak,86.0,78.0,80.0,56.0,81.0,60.0,71.0,Lulus
+STU0607,14.0,Laki-laki,Swasta,S2,Tidak Bekerja,35.0,93.6,Tidak,Tidak,Tidak,45.0,100.0,100.0,72.0,96.0,92.0,92.0,Lulus
+STU0608,12.0,Laki-laki,Negeri,SMP,Karyawan Swasta,3.0,56.2,Tidak,Ya,Ya,127.0,46.0,46.0,42.0,56.0,31.0,44.2,Tidak Lulus
+STU0609,18.0,Laki-laki,Negeri,SMP,Buruh,26.0,83.5,Tidak,Ya,Tidak,79.0,82.0,89.0,81.0,87.0,49.0,77.6,Lulus
+STU0610,14.0,Perempuan,Negeri,SD,Petani,22.0,97.8,Tidak,Ya,Tidak,86.0,78.0,88.0,94.0,98.0,70.0,85.6,Lulus
+STU0611,15.0,Perempuan,Swasta,S1,Tidak Bekerja,39.0,94.0,Ya,Ya,Tidak,67.0,100.0,100.0,100.0,100.0,87.0,97.4,Lulus
+STU0612,17.0,Laki-laki,Negeri,SD,Wiraswasta,27.0,62.4,Tidak,Ya,Ya,79.0,78.0,84.0,78.0,100.0,70.0,82.0,Lulus
+STU0613,12.0,Perempuan,Swasta,SMP,Karyawan Swasta,18.0,84.6,Tidak,Ya,Tidak,20.0,41.0,82.0,67.0,61.0,78.0,65.8,Lulus
+STU0614,13.0,Laki-laki,Negeri,S2,Buruh,27.0,54.5,Tidak,Tidak,Tidak,79.0,78.0,56.0,68.0,54.0,59.0,63.0,Tidak Lulus
+STU0615,13.0,Perempuan,Swasta,SMP,PNS,2.0,54.9,Tidak,Ya,Tidak,28.0,21.0,34.0,25.0,24.0,53.0,31.4,Tidak Lulus
+STU0616,14.0,Laki-laki,Swasta,S1,PNS,26.0,81.8,Ya,Tidak,Ya,41.0,91.0,99.0,81.0,72.0,78.0,84.2,Lulus
+STU0617,14.0,Laki-laki,Swasta,SD,Tidak Bekerja,1.0,55.1,Tidak,Ya,Tidak,138.0,31.0,39.0,24.0,29.0,30.0,30.6,Tidak Lulus
+STU0618,15.0,Perempuan,Swasta,SMA,Karyawan Swasta,20.0,85.1,Ya,Ya,Ya,127.0,78.0,100.0,75.0,77.0,74.0,80.8,Lulus
+STU0619,14.0,Laki-laki,Swasta,SMP,PNS,38.0,97.5,Tidak,Ya,Tidak,150.0,100.0,100.0,96.0,100.0,100.0,99.2,Lulus
+STU0620,16.0,Laki-laki,Negeri,S2,Tidak Bekerja,12.0,71.1,Tidak,Ya,Ya,79.0,85.0,56.0,53.0,70.0,63.0,65.4,Lulus
+STU0621,12.0,Perempuan,Negeri,S2,Karyawan Swasta,14.0,96.0,Ya,Tidak,Tidak,106.0,76.0,75.0,52.0,61.0,55.0,63.8,Tidak Lulus
+STU0622,13.0,Laki-laki,Swasta,SD,Tidak Bekerja,41.0,63.2,Tidak,Ya,Tidak,64.0,87.0,91.0,96.0,100.0,88.0,92.4,Lulus
+STU0623,16.0,Perempuan,Swasta,SMP,Buruh,16.0,59.8,Tidak,Ya,Ya,146.0,65.0,75.0,62.0,63.0,50.0,63.0,Tidak Lulus
+STU0624,14.0,Laki-laki,Swasta,SMA,Petani,16.0,83.6,Tidak,Ya,Tidak,132.0,77.0,86.0,65.0,71.0,76.0,75.0,Lulus
+STU0625,13.0,Laki-laki,Swasta,SMP,Karyawan Swasta,39.0,54.4,Ya,Ya,Tidak,52.0,100.0,100.0,68.0,96.0,69.0,86.6,Lulus
+STU0626,15.0,Perempuan,Negeri,SMP,Petani,40.0,71.5,Ya,Tidak,Ya,80.0,96.0,100.0,87.0,76.5,100.0,91.9,Lulus
+STU0627,12.0,Perempuan,Negeri,SMP,Wiraswasta,7.0,54.9,Tidak,Tidak,Tidak,27.0,46.0,42.0,71.0,49.0,6.0,42.8,Tidak Lulus
+STU0628,17.0,Perempuan,Swasta,SMA,Tidak Bekerja,41.0,72.6,Tidak,Ya,Tidak,96.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0629,12.0,Laki-laki,Negeri,SD,Buruh,38.0,61.4,Tidak,Ya,Tidak,73.0,83.0,100.0,91.0,86.0,76.0,87.2,Lulus
+STU0630,12.0,Perempuan,Negeri,SMP,Buruh,12.0,67.5,Tidak,Ya,Ya,62.0,75.0,75.0,53.0,72.0,68.0,68.6,Lulus
+STU0631,16.0,Laki-laki,Negeri,S1,Petani,14.0,59.1,Tidak,Tidak,Ya,81.0,52.0,53.0,53.0,59.0,68.0,57.0,Tidak Lulus
+STU0632,18.0,Perempuan,Swasta,S2,Buruh,23.0,90.6,Tidak,Tidak,Tidak,33.0,87.0,88.0,67.5,76.0,89.0,81.5,Lulus
+STU0633,18.0,Laki-laki,Negeri,SMP,Petani,21.0,96.5,Tidak,Ya,Tidak,86.0,69.0,73.0,84.0,82.0,75.0,76.6,Lulus
+STU0634,14.0,Laki-laki,Swasta,SMP,Buruh,15.0,88.8,Tidak,Tidak,Tidak,73.0,61.0,67.0,61.0,56.0,60.0,61.0,Tidak Lulus
+STU0635,12.0,Laki-laki,Negeri,S1,Karyawan Swasta,33.0,54.4,Tidak,Ya,Tidak,112.0,73.0,91.0,71.0,78.0,93.0,81.2,Lulus
+STU0636,13.0,Laki-laki,Negeri,S1,PNS,35.0,74.6,Tidak,Ya,Tidak,116.0,100.0,100.0,88.0,100.0,70.0,91.6,Lulus
+STU0637,15.0,Laki-laki,Negeri,S2,Petani,18.0,69.0,Ya,Tidak,Tidak,79.0,53.0,66.0,59.0,68.0,42.0,57.6,Tidak Lulus
+STU0638,16.0,Laki-laki,Swasta,S2,Karyawan Swasta,9.0,58.0,Ya,Ya,Ya,131.0,65.0,73.0,45.0,53.0,46.0,56.4,Tidak Lulus
+STU0639,14.0,Laki-laki,Negeri,SMA,Petani,32.0,50.4,Tidak,Ya,Tidak,124.0,90.0,94.0,69.0,77.0,64.0,78.8,Lulus
+STU0640,13.0,Laki-laki,Swasta,S2,Petani,5.0,92.1,Ya,Tidak,Tidak,49.0,40.0,64.0,41.0,51.0,31.0,45.4,Tidak Lulus
+STU0641,18.0,Laki-laki,Swasta,SMA,Karyawan Swasta,30.0,67.3,Ya,Tidak,Ya,59.0,82.0,88.0,92.0,90.0,81.0,86.6,Lulus
+STU0642,14.0,Laki-laki,Negeri,S2,Tidak Bekerja,2.0,56.4,Ya,Ya,Tidak,14.0,36.0,47.0,23.0,25.0,40.0,34.2,Tidak Lulus
+STU0643,18.0,Laki-laki,Negeri,SD,Tidak Bekerja,15.0,45.6,Tidak,Tidak,Tidak,24.0,56.0,62.0,53.0,62.0,27.0,52.0,Tidak Lulus
+STU0644,14.0,Laki-laki,Negeri,S1,Karyawan Swasta,24.0,86.1,Tidak,Ya,Tidak,66.0,77.0,92.0,88.0,72.0,73.0,80.4,Lulus
+STU0645,12.0,Laki-laki,Swasta,SD,Karyawan Swasta,12.0,83.6,Tidak,Ya,Tidak,78.0,64.0,68.0,49.0,63.0,43.0,57.4,Tidak Lulus
+STU0646,13.0,Perempuan,Swasta,SMP,Buruh,27.0,91.8,Ya,Tidak,Tidak,78.0,81.0,78.0,78.0,87.0,83.0,81.4,Lulus
+STU0647,14.0,Laki-laki,Swasta,S1,Petani,1.0,58.8,Ya,Ya,Tidak,113.0,18.0,48.0,48.0,18.0,25.0,31.4,Tidak Lulus
+STU0648,14.0,Perempuan,Swasta,S1,Buruh,4.0,58.6,Tidak,Ya,Tidak,146.0,32.0,53.0,42.0,43.0,31.0,40.2,Tidak Lulus
+STU0649,15.0,Laki-laki,Negeri,SMA,PNS,29.0,86.9,Tidak,Tidak,Tidak,21.0,78.0,79.0,77.0,82.0,94.0,82.0,Lulus
+STU0650,12.0,Laki-laki,Swasta,SMA,Karyawan Swasta,13.0,75.9,Ya,Ya,Ya,40.0,64.0,89.0,65.0,64.0,59.0,68.2,Lulus
+STU0651,15.0,Laki-laki,Swasta,SMP,Buruh,41.0,58.0,Tidak,Ya,Tidak,50.0,90.0,100.0,89.0,95.0,100.0,94.8,Lulus
+STU0652,16.0,Laki-laki,Negeri,SMP,Karyawan Swasta,39.0,73.8,Tidak,Tidak,Tidak,22.0,86.0,91.0,100.0,100.0,98.0,95.0,Lulus
+STU0653,13.0,Laki-laki,Negeri,S1,PNS,26.0,78.6,Tidak,Ya,Tidak,23.0,87.0,75.0,64.0,78.0,69.0,74.6,Lulus
+STU0654,13.0,Laki-laki,Swasta,SMP,Tidak Bekerja,5.0,79.3,Ya,Ya,Ya,65.0,69.0,49.0,41.0,51.0,33.0,48.6,Tidak Lulus
+STU0655,18.0,Laki-laki,Swasta,SMA,Tidak Bekerja,38.0,80.7,Ya,Ya,Tidak,56.0,100.0,97.0,100.0,100.0,95.0,98.4,Lulus
+STU0656,15.0,Laki-laki,Negeri,SMP,Tidak Bekerja,13.0,71.7,Tidak,Ya,Ya,84.0,66.0,60.0,57.0,78.0,70.0,66.2,Lulus
+STU0657,13.0,Laki-laki,Swasta,S2,PNS,21.0,54.0,Ya,Ya,Ya,26.0,72.0,78.0,77.0,67.0,49.0,68.6,Lulus
+STU0658,13.0,Laki-laki,Swasta,SMA,PNS,14.0,92.6,Tidak,Ya,Tidak,92.0,71.0,62.0,55.0,72.0,55.0,63.0,Tidak Lulus
+STU0659,18.0,Laki-laki,Negeri,S1,Wiraswasta,34.0,85.6,Tidak,Ya,Tidak,79.0,94.0,100.0,100.0,87.0,100.0,96.2,Lulus
+STU0660,18.0,Laki-laki,Negeri,S1,Petani,17.0,83.8,Ya,Ya,Tidak,107.0,60.0,69.0,71.0,78.0,57.0,67.0,Lulus
+STU0661,12.0,Perempuan,Swasta,S1,PNS,25.0,93.9,Ya,Ya,Tidak,52.0,88.0,98.0,75.0,77.0,69.0,81.4,Lulus
+STU0662,15.0,Laki-laki,Negeri,SD,PNS,13.0,71.6,Ya,Ya,Tidak,5.0,50.0,60.0,56.0,57.0,42.0,53.0,Tidak Lulus
+STU0663,16.0,Laki-laki,Swasta,SMA,Petani,6.0,82.2,Tidak,Ya,Tidak,81.0,51.0,63.0,54.0,45.0,36.0,49.8,Tidak Lulus
+STU0664,16.0,Laki-laki,Swasta,SMA,Karyawan Swasta,21.0,47.9,Ya,Ya,Tidak,49.0,55.0,76.0,51.0,50.0,47.0,55.8,Tidak Lulus
+STU0665,17.0,Laki-laki,Negeri,SMA,PNS,31.0,45.8,Tidak,Ya,Tidak,96.0,69.0,66.0,74.0,72.0,53.0,66.8,Lulus
+STU0666,18.0,Laki-laki,Swasta,S2,Tidak Bekerja,17.0,98.4,Tidak,Ya,Tidak,78.0,73.0,77.0,72.0,77.0,73.0,74.4,Lulus
+STU0667,14.0,Laki-laki,Swasta,SD,PNS,9.0,56.1,Tidak,Ya,Ya,74.0,39.0,61.0,60.0,41.0,65.0,53.2,Tidak Lulus
+STU0668,17.0,Laki-laki,Negeri,SMA,Tidak Bekerja,20.0,87.2,Tidak,Ya,Tidak,62.0,80.0,86.0,73.0,82.0,85.0,81.2,Lulus
+STU0669,12.0,Perempuan,Swasta,S2,Petani,27.0,86.1,Ya,Ya,Tidak,76.0,84.0,91.0,70.0,95.0,88.0,85.6,Lulus
+STU0670,13.0,Laki-laki,Negeri,SD,Tidak Bekerja,22.0,98.2,Ya,Ya,Tidak,109.0,61.0,67.0,63.0,47.0,55.0,58.6,Tidak Lulus
+STU0671,12.0,Perempuan,Negeri,SD,Buruh,40.0,85.5,Ya,Ya,Tidak,15.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0672,15.0,Perempuan,Negeri,S2,Wiraswasta,34.0,71.4,Ya,Tidak,Tidak,92.0,87.0,97.0,69.0,100.0,94.0,89.4,Lulus
+STU0673,17.0,Perempuan,Negeri,S2,Karyawan Swasta,7.0,76.9,Ya,Ya,Ya,128.0,33.0,71.0,53.0,51.0,70.0,55.6,Tidak Lulus
+STU0674,14.0,Laki-laki,Swasta,SMP,Buruh,1.0,70.3,Tidak,Ya,Tidak,21.0,29.0,42.0,36.0,52.0,23.0,36.4,Tidak Lulus
+STU0675,14.0,Perempuan,Negeri,SMP,Buruh,39.0,55.9,Ya,Tidak,Tidak,24.0,100.0,90.0,89.0,87.0,75.0,88.2,Lulus
+STU0676,17.0,Perempuan,Swasta,SMP,Wiraswasta,12.0,63.7,Tidak,Ya,Ya,138.0,62.0,72.0,44.0,53.0,35.0,53.2,Tidak Lulus
+STU0677,13.0,Laki-laki,Swasta,SD,PNS,21.0,67.7,Tidak,Ya,Tidak,142.0,70.0,51.0,62.0,75.0,63.0,64.2,Tidak Lulus
+STU0678,12.0,Laki-laki,Swasta,S1,Buruh,8.0,52.1,Tidak,Ya,Tidak,78.0,42.0,42.0,28.0,47.0,40.0,39.8,Tidak Lulus
+STU0679,17.0,Laki-laki,Swasta,SMP,PNS,6.0,79.6,Ya,Ya,Tidak,123.0,75.0,58.0,58.0,54.0,53.0,59.6,Tidak Lulus
+STU0680,13.0,Laki-laki,Negeri,S1,Buruh,22.0,61.3,Ya,Tidak,Tidak,115.0,78.0,74.0,91.0,58.0,72.0,74.6,Lulus
+STU0681,18.0,Perempuan,Swasta,SD,PNS,22.0,95.0,Tidak,Ya,Tidak,17.0,75.0,80.0,84.0,91.0,83.0,82.6,Lulus
+STU0682,14.0,Perempuan,Swasta,SMP,Wiraswasta,16.0,57.4,Ya,Ya,Ya,51.0,65.0,76.0,59.0,58.0,43.0,60.2,Tidak Lulus
+STU0683,18.0,Perempuan,Swasta,SD,Buruh,15.0,49.9,Ya,Tidak,Tidak,30.0,59.0,40.0,41.0,46.0,57.0,48.6,Tidak Lulus
+STU0684,17.0,Perempuan,Negeri,SMP,Karyawan Swasta,18.0,50.6,Tidak,Ya,Tidak,11.0,44.0,66.0,65.0,51.0,50.0,55.2,Tidak Lulus
+STU0685,16.0,Perempuan,Negeri,SD,PNS,3.0,53.2,Ya,Tidak,Tidak,84.0,38.0,40.0,32.0,24.0,1.0,27.0,Tidak Lulus
+STU0686,13.0,Perempuan,Negeri,SD,Petani,34.0,82.8,Ya,Ya,Ya,79.0,100.0,100.0,92.0,100.0,86.0,95.6,Lulus
+STU0687,15.0,Laki-laki,Negeri,SMP,Petani,36.0,89.4,Ya,Ya,Ya,99.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0688,12.0,Laki-laki,Swasta,S1,Petani,30.0,70.0,Ya,Ya,Tidak,72.0,77.0,76.0,71.0,100.0,74.0,79.6,Lulus
+STU0689,16.0,Perempuan,Swasta,S1,Wiraswasta,23.0,94.2,Tidak,Ya,Tidak,14.0,87.0,76.0,86.0,80.0,98.0,85.4,Lulus
+STU0690,18.0,Laki-laki,Swasta,S2,PNS,23.0,99.0,Ya,Ya,Tidak,88.0,94.0,76.0,76.0,78.0,100.0,84.8,Lulus
+STU0691,12.0,Laki-laki,Swasta,SMP,PNS,42.0,94.1,Tidak,Ya,Ya,86.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0692,13.0,Perempuan,Negeri,S1,Karyawan Swasta,16.0,81.0,Ya,Ya,Ya,69.0,89.0,65.0,62.0,75.0,79.0,74.0,Lulus
+STU0693,13.0,Laki-laki,Negeri,SD,Petani,22.0,71.4,Ya,Tidak,Tidak,99.0,74.0,76.0,54.0,62.0,59.0,65.0,Tidak Lulus
+STU0694,12.0,Perempuan,Swasta,S2,Petani,20.0,94.5,Tidak,Tidak,Tidak,142.0,69.0,71.0,57.0,96.0,73.0,73.2,Lulus
+STU0695,13.0,Laki-laki,Swasta,SMA,PNS,41.0,72.2,Ya,Ya,Tidak,114.0,100.0,100.0,100.0,100.0,80.0,96.0,Lulus
+STU0696,14.0,Perempuan,Negeri,SMP,Buruh,26.0,84.0,Tidak,Ya,Tidak,57.0,92.0,90.0,72.0,81.0,84.0,83.8,Lulus
+STU0697,13.0,Laki-laki,Negeri,S1,Tidak Bekerja,22.0,69.9,Tidak,Tidak,Ya,136.0,51.0,68.0,37.0,36.0,45.0,47.4,Tidak Lulus
+STU0698,15.0,Perempuan,Swasta,S2,Buruh,26.0,75.9,Tidak,Ya,Ya,140.0,82.0,98.0,100.0,84.0,94.0,91.6,Lulus
+STU0699,17.0,Laki-laki,Swasta,SMA,Karyawan Swasta,33.0,97.5,Tidak,Tidak,Tidak,69.0,92.0,98.0,100.0,100.0,96.0,97.2,Lulus
+STU0700,18.0,Laki-laki,Negeri,S2,Buruh,20.0,81.4,Ya,Ya,Ya,13.0,92.0,74.0,79.0,86.0,79.0,82.0,Lulus
+STU0701,17.0,Laki-laki,Negeri,SMA,PNS,37.0,55.9,Tidak,Ya,Tidak,47.0,86.0,77.0,75.0,97.0,82.0,83.4,Lulus
+STU0702,15.0,Perempuan,Negeri,SD,Tidak Bekerja,36.0,53.7,Tidak,Ya,Tidak,35.0,86.0,77.0,80.0,88.0,80.0,82.2,Lulus
+STU0703,17.0,Laki-laki,Swasta,SD,Wiraswasta,23.0,74.4,Ya,Ya,Tidak,93.0,69.0,70.0,62.0,64.0,82.0,69.4,Lulus
+STU0704,12.0,Laki-laki,Negeri,S1,PNS,36.0,81.6,Ya,Ya,Tidak,130.0,93.0,88.0,77.0,100.0,81.0,87.8,Lulus
+STU0705,18.0,Perempuan,Negeri,S2,Karyawan Swasta,21.0,97.6,Tidak,Ya,Tidak,125.0,74.0,80.0,82.0,68.0,86.0,78.0,Lulus
+STU0706,14.0,Perempuan,Swasta,S2,Buruh,27.0,99.8,Ya,Ya,Tidak,85.0,73.0,100.0,89.0,94.0,88.0,88.8,Lulus
+STU0707,13.0,Perempuan,Swasta,S2,Buruh,6.0,78.0,Tidak,Ya,Tidak,79.0,53.0,54.0,56.0,53.0,33.0,49.8,Tidak Lulus
+STU0708,14.0,Perempuan,Negeri,SMP,PNS,30.0,78.3,Ya,Ya,Ya,66.0,100.0,98.0,96.0,100.0,87.0,96.2,Lulus
+STU0709,14.0,Laki-laki,Negeri,SMA,Buruh,14.0,62.1,Tidak,Ya,Tidak,113.0,53.0,63.0,39.0,67.0,70.0,58.4,Tidak Lulus
+STU0710,13.0,Perempuan,Negeri,SMP,PNS,36.0,85.5,Tidak,Ya,Ya,35.0,100.0,100.0,95.0,100.0,85.0,96.0,Lulus
+STU0711,16.0,Laki-laki,Negeri,SMP,Wiraswasta,18.0,82.6,Ya,Ya,Tidak,120.0,62.0,72.0,58.0,55.0,53.0,60.0,Tidak Lulus
+STU0712,16.0,Laki-laki,Negeri,SD,Tidak Bekerja,32.0,90.7,Tidak,Ya,Tidak,113.0,74.0,100.0,80.0,83.0,85.0,84.4,Lulus
+STU0713,16.0,Laki-laki,Negeri,SD,Wiraswasta,11.0,45.9,Ya,Ya,Tidak,87.0,47.0,51.0,45.0,76.5,34.0,50.7,Tidak Lulus
+STU0714,12.0,Laki-laki,Swasta,S1,Tidak Bekerja,9.0,56.1,Ya,Ya,Tidak,149.0,44.0,40.0,38.0,44.0,46.0,42.4,Tidak Lulus
+STU0715,12.0,Perempuan,Negeri,SMA,Tidak Bekerja,22.0,56.9,Tidak,Ya,Tidak,67.0,74.0,76.0,53.0,57.0,60.0,64.0,Tidak Lulus
+STU0716,15.0,Laki-laki,Negeri,S1,Tidak Bekerja,24.0,98.5,Tidak,Ya,Tidak,124.0,91.0,100.0,80.0,100.0,91.0,92.4,Lulus
+STU0717,15.0,Laki-laki,Swasta,SMP,Petani,38.0,52.7,Ya,Ya,Ya,88.0,100.0,95.0,67.5,72.0,87.0,84.3,Lulus
+STU0718,14.0,Perempuan,Swasta,SMP,Tidak Bekerja,36.0,57.3,Ya,Ya,Tidak,13.0,73.0,95.0,88.0,99.0,77.0,86.4,Lulus
+STU0719,13.0,Perempuan,Negeri,SD,Petani,5.0,73.5,Tidak,Ya,Tidak,42.0,51.0,66.0,37.0,76.5,36.0,53.3,Tidak Lulus
+STU0720,12.0,Perempuan,Negeri,SMP,Wiraswasta,4.0,57.9,Tidak,Tidak,Tidak,136.0,35.0,41.0,41.0,26.0,1.0,28.8,Tidak Lulus
+STU0721,13.0,Perempuan,Negeri,SD,Buruh,11.0,70.4,Ya,Tidak,Tidak,33.0,49.0,51.0,62.0,38.0,53.0,50.6,Tidak Lulus
+STU0722,14.0,Laki-laki,Negeri,S2,Buruh,31.0,81.4,Ya,Ya,Ya,76.0,100.0,97.0,93.0,100.0,95.0,97.0,Lulus
+STU0723,16.0,Perempuan,Negeri,SD,Tidak Bekerja,39.0,74.4,Tidak,Tidak,Tidak,113.0,90.0,91.0,84.0,90.0,99.0,90.8,Lulus
+STU0724,15.0,Perempuan,Swasta,SMA,Buruh,28.0,70.4,Ya,Ya,Ya,78.0,74.0,100.0,90.0,94.0,73.0,86.2,Lulus
+STU0725,18.0,Perempuan,Negeri,SD,Tidak Bekerja,29.0,45.0,Ya,Ya,Tidak,40.0,68.0,67.0,71.0,80.0,57.0,68.6,Lulus
+STU0726,13.0,Laki-laki,Negeri,SD,Petani,20.0,86.4,Tidak,Ya,Ya,90.0,63.0,96.0,75.0,76.0,81.0,78.2,Lulus
+STU0727,15.0,Laki-laki,Swasta,SMA,Wiraswasta,9.0,66.1,Tidak,Tidak,Ya,95.0,59.0,57.0,37.0,54.0,58.0,53.0,Tidak Lulus
+STU0728,13.0,Laki-laki,Swasta,S2,Tidak Bekerja,22.0,68.5,Ya,Ya,Tidak,125.0,71.0,78.0,64.0,69.0,53.0,67.0,Lulus
+STU0729,17.0,Perempuan,Swasta,S2,PNS,31.0,45.2,Ya,Ya,Tidak,44.0,66.0,65.0,73.0,71.0,71.0,69.2,Lulus
+STU0730,16.0,Perempuan,Negeri,SMP,Petani,41.0,71.4,Ya,Ya,Ya,90.0,90.0,100.0,89.0,78.0,97.0,90.8,Lulus
+STU0731,12.0,Perempuan,Swasta,SD,Petani,16.0,63.9,Tidak,Ya,Ya,125.0,76.0,58.0,85.0,60.0,62.0,68.2,Lulus
+STU0732,18.0,Laki-laki,Swasta,S1,Wiraswasta,23.0,96.0,Ya,Ya,Tidak,92.0,80.0,89.0,73.0,87.0,91.0,84.0,Lulus
+STU0733,15.0,Perempuan,Swasta,SMP,Buruh,33.0,68.1,Ya,Ya,Ya,48.0,85.0,100.0,92.0,87.0,94.0,91.6,Lulus
+STU0734,14.5,Perempuan,Swasta,SMA,Wiraswasta,39.0,80.2,Tidak,Ya,Tidak,53.0,85.0,100.0,96.0,100.0,96.0,95.4,Lulus
+STU0735,14.0,Laki-laki,Negeri,S1,PNS,13.0,72.3,Ya,Ya,Tidak,21.0,62.0,65.0,54.0,51.0,60.0,58.4,Tidak Lulus
+STU0736,14.0,Laki-laki,Swasta,SMA,Tidak Bekerja,27.0,73.8,Tidak,Ya,Ya,68.0,100.0,100.0,75.0,90.0,60.0,85.0,Lulus
+STU0737,12.0,Perempuan,Negeri,SD,Petani,6.0,70.8,Tidak,Ya,Tidak,47.0,57.0,50.0,35.0,55.0,70.0,53.4,Tidak Lulus
+STU0738,12.0,Perempuan,Negeri,S1,Karyawan Swasta,14.0,97.3,Tidak,Ya,Tidak,129.0,78.0,81.0,68.0,84.0,77.0,77.6,Lulus
+STU0739,14.0,Laki-laki,Swasta,S1,PNS,35.0,90.4,Tidak,Ya,Tidak,31.0,87.0,100.0,86.0,98.0,100.0,94.2,Lulus
+STU0740,14.0,Perempuan,Negeri,S2,Buruh,6.0,48.2,Ya,Ya,Tidak,35.0,30.0,48.0,37.0,46.0,39.0,40.0,Tidak Lulus
+STU0741,13.0,Laki-laki,Swasta,S1,Petani,12.0,66.3,Tidak,Ya,Tidak,141.0,50.0,76.0,53.0,80.0,41.0,60.0,Tidak Lulus
+STU0742,17.0,Laki-laki,Negeri,SMP,Wiraswasta,4.0,92.7,Tidak,Ya,Ya,22.0,65.0,61.0,62.0,48.0,70.0,61.2,Tidak Lulus
+STU0743,12.0,Perempuan,Swasta,SMA,Tidak Bekerja,20.0,79.1,Ya,Ya,Ya,73.0,52.0,73.0,66.0,78.0,63.0,66.4,Lulus
+STU0744,15.0,Perempuan,Negeri,SMA,PNS,6.0,57.4,Tidak,Tidak,Tidak,30.0,43.0,44.0,71.0,11.0,43.0,42.4,Tidak Lulus
+STU0745,17.0,Perempuan,Negeri,SMP,Petani,29.0,68.0,Ya,Tidak,Tidak,14.0,56.0,67.0,78.0,82.0,94.0,75.4,Lulus
+STU0746,17.0,Laki-laki,Negeri,SMP,Buruh,9.0,68.8,Tidak,Tidak,Ya,58.0,60.0,69.0,40.0,59.0,62.0,58.0,Tidak Lulus
+STU0747,12.0,Laki-laki,Swasta,SMP,Buruh,3.0,84.9,Tidak,Tidak,Tidak,58.0,45.0,51.0,48.0,47.0,33.0,44.8,Tidak Lulus
+STU0748,16.0,Laki-laki,Negeri,SMP,Wiraswasta,13.0,57.0,Tidak,Tidak,Tidak,75.0,48.0,57.0,33.0,45.0,47.0,46.0,Tidak Lulus
+STU0749,17.0,Laki-laki,Negeri,SMA,Tidak Bekerja,14.0,87.9,Tidak,Ya,Tidak,88.0,54.0,68.0,80.0,62.0,62.0,65.2,Lulus
+STU0750,13.0,Laki-laki,Negeri,SMP,Petani,3.0,50.1,Ya,Ya,Tidak,23.0,27.0,44.0,47.0,37.0,17.0,34.4,Tidak Lulus
+STU0751,14.0,Laki-laki,Swasta,SD,Tidak Bekerja,38.0,93.1,Tidak,Tidak,Ya,30.0,97.0,100.0,96.0,100.0,100.0,98.6,Lulus
+STU0752,14.0,Perempuan,Negeri,SD,PNS,33.0,55.8,Ya,Tidak,Ya,39.0,82.0,87.0,65.0,72.0,65.0,74.2,Lulus
+STU0753,12.0,Laki-laki,Swasta,S1,Petani,39.0,48.9,Ya,Ya,Ya,135.0,88.0,94.0,100.0,91.0,96.0,93.8,Lulus
+STU0754,17.0,Laki-laki,Negeri,S2,Karyawan Swasta,18.0,71.9,Tidak,Ya,Tidak,94.0,74.0,51.0,57.0,59.0,70.0,62.2,Tidak Lulus
+STU0755,14.0,Perempuan,Swasta,SD,Wiraswasta,18.0,98.5,Tidak,Ya,Tidak,119.0,77.0,83.0,66.0,71.0,69.0,73.2,Lulus
+STU0756,18.0,Perempuan,Negeri,S2,Tidak Bekerja,31.0,69.0,Tidak,Ya,Tidak,122.0,57.0,92.0,88.0,76.0,82.0,79.0,Lulus
+STU0757,18.0,Laki-laki,Swasta,SMP,Tidak Bekerja,39.0,48.3,Tidak,Tidak,Tidak,115.0,100.0,80.0,67.5,96.0,72.0,83.1,Lulus
+STU0758,17.0,Laki-laki,Negeri,S1,Buruh,41.0,71.8,Tidak,Ya,Tidak,48.0,100.0,98.0,100.0,100.0,84.0,96.4,Lulus
+STU0759,17.0,Laki-laki,Swasta,SMA,Tidak Bekerja,37.0,76.5,Ya,Tidak,Ya,97.0,98.0,96.0,98.0,100.0,87.0,95.8,Lulus
+STU0760,18.0,Perempuan,Negeri,S1,Wiraswasta,23.0,72.7,Tidak,Tidak,Ya,92.0,70.0,83.0,72.0,85.0,72.0,76.4,Lulus
+STU0761,17.0,Laki-laki,Negeri,SMA,PNS,24.0,85.6,Ya,Ya,Tidak,41.0,79.0,90.0,70.0,89.0,65.0,78.6,Lulus
+STU0762,15.0,Perempuan,Negeri,S1,PNS,38.0,75.0,Tidak,Tidak,Ya,107.0,100.0,96.0,71.0,100.0,93.0,92.0,Lulus
+STU0763,17.0,Perempuan,Negeri,SD,Karyawan Swasta,24.0,74.8,Tidak,Tidak,Ya,65.0,74.0,77.0,67.0,77.0,76.0,74.2,Lulus
+STU0764,17.0,Laki-laki,Negeri,S2,PNS,31.0,85.9,Tidak,Ya,Tidak,79.0,84.0,91.0,92.0,100.0,81.0,89.6,Lulus
+STU0765,14.5,Laki-laki,Swasta,SD,PNS,28.0,52.0,Ya,Ya,Tidak,78.0,69.0,81.0,51.0,73.0,69.0,68.6,Lulus
+STU0766,12.0,Perempuan,Negeri,SMP,Petani,30.0,96.0,Tidak,Ya,Tidak,134.0,100.0,100.0,98.0,100.0,78.0,95.2,Lulus
+STU0767,15.0,Perempuan,Swasta,SD,Buruh,7.0,58.9,Ya,Ya,Tidak,116.0,50.0,49.0,58.0,53.0,69.0,55.8,Tidak Lulus
+STU0768,14.0,Laki-laki,Negeri,SMA,Tidak Bekerja,27.0,71.4,Tidak,Ya,Tidak,33.0,74.0,78.0,76.0,80.0,84.0,78.4,Lulus
+STU0769,16.0,Perempuan,Swasta,SMP,Tidak Bekerja,40.0,76.7,Tidak,Ya,Tidak,71.0,100.0,92.0,91.0,94.0,92.0,93.8,Lulus
+STU0770,18.0,Laki-laki,Negeri,S2,Petani,13.0,45.9,Ya,Tidak,Ya,68.0,41.0,38.0,46.0,48.0,27.0,40.0,Tidak Lulus
+STU0771,13.0,Laki-laki,Swasta,S1,PNS,25.0,59.6,Tidak,Ya,Tidak,42.0,82.0,64.0,66.0,61.0,60.0,66.6,Lulus
+STU0772,16.0,Perempuan,Negeri,SMA,Karyawan Swasta,40.0,82.9,Tidak,Ya,Tidak,88.0,74.0,100.0,89.0,100.0,80.0,88.6,Lulus
+STU0773,13.0,Laki-laki,Swasta,SD,PNS,27.0,80.3,Tidak,Tidak,Ya,82.0,71.0,100.0,81.0,93.0,98.0,88.6,Lulus
+STU0774,14.0,Perempuan,Swasta,S1,PNS,1.0,84.9,Ya,Ya,Ya,49.0,43.0,61.0,57.0,62.0,37.0,52.0,Tidak Lulus
+STU0775,13.0,Perempuan,Negeri,SMA,Buruh,40.0,48.9,Tidak,Tidak,Ya,103.0,100.0,97.0,100.0,93.0,97.0,97.4,Lulus
+STU0776,17.0,Perempuan,Swasta,SD,Karyawan Swasta,29.0,77.4,Ya,Ya,Tidak,75.0,75.0,95.0,64.0,84.0,93.0,82.2,Lulus
+STU0777,17.0,Perempuan,Negeri,S2,PNS,39.0,50.5,Ya,Ya,Tidak,138.0,92.0,92.0,77.0,100.0,70.0,86.2,Lulus
+STU0778,18.0,Perempuan,Swasta,SD,PNS,27.0,72.3,Ya,Tidak,Ya,51.0,77.0,84.0,80.0,82.0,77.0,80.0,Lulus
+STU0779,13.0,Laki-laki,Negeri,S2,Wiraswasta,16.0,59.9,Tidak,Ya,Ya,109.0,67.0,83.0,57.0,58.0,66.0,66.2,Lulus
+STU0780,17.0,Laki-laki,Negeri,SMA,Karyawan Swasta,27.0,93.8,Tidak,Tidak,Ya,14.0,90.0,87.0,90.0,90.0,94.0,90.2,Lulus
+STU0781,13.0,Laki-laki,Swasta,S2,Petani,32.0,75.5,Ya,Ya,Ya,34.0,96.0,90.0,100.0,94.0,98.0,95.6,Lulus
+STU0782,16.0,Perempuan,Swasta,S2,Karyawan Swasta,17.0,96.7,Ya,Ya,Tidak,64.0,82.0,77.0,80.0,72.0,67.0,75.6,Lulus
+STU0783,12.0,Perempuan,Swasta,SMP,Buruh,30.0,65.3,Ya,Ya,Tidak,114.0,86.0,71.0,78.0,65.0,80.0,76.0,Lulus
+STU0784,15.0,Perempuan,Negeri,S2,Buruh,4.0,64.8,Tidak,Ya,Tidak,128.0,37.0,54.0,43.0,51.0,27.0,42.4,Tidak Lulus
+STU0785,12.0,Perempuan,Swasta,S2,Petani,29.0,85.0,Ya,Ya,Tidak,98.0,69.0,74.0,99.0,99.0,77.0,83.6,Lulus
+STU0786,14.0,Perempuan,Negeri,S1,Buruh,42.0,84.6,Tidak,Tidak,Tidak,131.0,92.0,100.0,100.0,100.0,70.0,92.4,Lulus
+STU0787,17.0,Laki-laki,Negeri,SMP,Buruh,24.0,53.1,Ya,Ya,Tidak,90.0,71.0,66.0,80.0,72.0,79.0,73.6,Lulus
+STU0788,18.0,Perempuan,Negeri,S1,Buruh,12.0,46.1,Tidak,Ya,Tidak,25.0,42.0,49.0,38.0,32.0,53.0,42.8,Tidak Lulus
+STU0789,13.0,Laki-laki,Negeri,SMP,Buruh,33.0,68.6,Ya,Tidak,Ya,125.0,85.0,96.0,73.0,85.0,79.0,83.6,Lulus
+STU0790,17.0,Perempuan,Negeri,S1,Petani,24.0,60.2,Tidak,Ya,Tidak,46.0,68.0,70.0,80.0,59.0,76.0,70.6,Lulus
+STU0791,15.0,Laki-laki,Negeri,S1,Buruh,19.0,71.1,Tidak,Ya,Tidak,45.0,60.0,72.0,50.0,76.0,64.0,64.4,Tidak Lulus
+STU0792,15.0,Laki-laki,Swasta,SMP,Tidak Bekerja,38.0,76.1,Tidak,Tidak,Tidak,133.0,100.0,100.0,100.0,100.0,100.0,100.0,Lulus
+STU0793,16.0,Laki-laki,Negeri,SD,Tidak Bekerja,22.0,83.2,Tidak,Ya,Tidak,51.0,56.0,53.0,55.0,38.0,43.0,49.0,Tidak Lulus
+STU0794,13.0,Perempuan,Swasta,SD,Petani,2.0,73.2,Ya,Ya,Ya,34.0,60.0,68.0,60.0,72.0,54.0,62.8,Tidak Lulus
+STU0795,14.0,Perempuan,Negeri,SD,Wiraswasta,41.0,48.8,Tidak,Ya,Tidak,41.0,83.0,77.0,97.0,99.0,86.0,88.4,Lulus
+STU0796,14.5,Perempuan,Swasta,SMP,Petani,19.0,86.8,Tidak,Ya,Ya,86.0,75.0,87.0,81.0,86.0,68.0,79.4,Lulus
+STU0797,18.0,Perempuan,Negeri,SMA,Wiraswasta,13.0,94.3,Tidak,Ya,Tidak,13.0,75.0,70.0,45.0,65.0,75.0,66.0,Lulus
+STU0798,13.0,Laki-laki,Negeri,S2,PNS,7.0,83.2,Ya,Ya,Ya,7.0,54.0,53.0,54.0,73.0,60.0,58.8,Tidak Lulus
+STU0799,16.0,Laki-laki,Negeri,S1,Tidak Bekerja,39.0,51.8,Ya,Tidak,Ya,24.0,93.0,98.0,93.0,90.0,81.0,91.0,Lulus
+STU0800,15.0,Perempuan,Negeri,SMP,Wiraswasta,33.0,64.6,Ya,Ya,Tidak,120.0,89.0,80.0,75.0,96.0,75.0,83.0,Lulus
