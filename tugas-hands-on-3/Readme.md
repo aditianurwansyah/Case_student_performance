@@ -20,8 +20,8 @@ Proses pembersihan data dilakukan dengan urutan baku: **Duplikat → Missing Val
 | Metrik Kualitas | Sebelum Pembersihan | Sesudah Pembersihan | Penjelasan Tindakan |
 | :--- | :---: | :---: | :--- |
 | **`n_baris`** | 800 | 800 | Jumlah baris tetap dijaga untuk mempertahankan informasi. |
-| **`n_duplikat`** | *N* | 0 | Duplikat diidentifikasi dan dihapus berdasarkan `student_id`. |
-| **`n_missing`** | >0 | 0 | Imputasi kategorik dengan modus, serta nilai akademik/numerik dengan median per grup `jenis_sekolah` + fallback median global. |
+| **`n_duplikat`** | *0* | 0 | Duplikat diidentifikasi dan dihapus berdasarkan `student_id`. |
+| **`n_missing`** | 511 | 0 | Imputasi kategorik dengan modus, serta nilai akademik/numerik dengan median per grup `jenis_sekolah` + fallback median global. |
 | **`n_outlier`** | >0 | 0 | *Outlier* ekstrem pada jam belajar, kehadiran, dan waktu tempuh di-capping/clipping menggunakan metode 1.5x IQR per grup. |
 
 ---
